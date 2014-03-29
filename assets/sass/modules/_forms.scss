@@ -1,0 +1,132 @@
+/* ==========================================================================
+	BASE FORM STYLES
+========================================================================== */
+
+//Give form elements some cursor interactions...
+label,
+input,
+textarea,
+button,
+select,
+option,
+{
+	cursor:pointer;
+}
+	%text-input:active,
+	%text-input:focus,
+	textarea:active,
+	textarea:focus{
+		cursor:text;
+		outline:none;
+	}
+
+
+
+%text-input {
+	@include font-rem(14);
+	@include remit(padding, 8 6);
+	@include remit(margin, 2 0 5 0);
+
+	color: $text-color;
+	border:1px solid $grey;
+	border-radius:0;
+	outline:none;
+	-webkit-appearance: none;
+
+	&:focus {
+
+		@include mq($regular, false, max) {
+			@include font-rem(16);
+		}
+	}
+}
+
+%select-list {
+	position: relative;
+	border:1px solid $grey;
+	background-color:$white;
+	overflow:hidden;
+
+	&:after {
+		position: absolute;
+		top:35%;
+		right:$hsu+px;
+		@include css-triangle(down,8px, darken($grey, 20%));
+		content: '';
+	}
+
+}
+
+
+label {
+	@include font-size(14);
+	color:$text-color;
+}
+
+
+/* ==========================================================================
+	ENQUIRY FORM STYLES
+========================================================================== */
+
+.enquiry-form {
+	input[type=text],
+	input[type=tel],
+	input[type=email],
+	select,
+	textarea {
+		@extend %text-input;
+		@include placeholder($text-color);
+		width:90%;
+
+		&:focus, &.required:focus {
+			@include placeholder($white);
+			border:2px solid rgba($white, .6);
+			background-color: $base-color;
+			color:$white;
+			outline: none;
+		}
+
+		&.required {
+			@include placeholder($sub-color);
+		}
+
+		&.error {
+			border: 1px solid $error-color;
+			background-color: $error-background;
+			color: $error-color;
+			@include placeholder($error-color)
+		}
+	}
+
+	select {
+		border:0;
+		background-color:transparent;
+		width:100%;
+		margin:0;
+	}
+
+	.select-list {
+		@extend %select-list;
+		@include remit(margin-top, 5);
+		width:90%;
+	}
+
+	button {
+		@extend .btn-base;
+		@include font-size(13);
+		border:2px solid $white;
+	}
+
+}
+
+/* ==========================================================================
+	ERROR STYLES
+========================================================================== */
+
+.error {
+	@include font-size(13);
+	@include remit(margin, 4 0 $hsu 0);
+	color: $error-color;
+	float: left;
+	font-weight:bold;
+}

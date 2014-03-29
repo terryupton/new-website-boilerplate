@@ -1,0 +1,87 @@
+/*---------------------------------------------------
+	Initial setup to import all our SASS based files.
+
+	by Terry Upton (Amasci Creative Limited)
+-----------------------------------------------------*/
+
+//SASS HEIRACHY/STRUCTURE
+// Base - Base Styles/Files That should never change.
+// Layouts - Specific files relating to the project and various layout/pages
+// Modules - Some styles might change per project (like typography, images, links etc)
+// Mixins - Ported from Sassification
+// Universal IE - to target IE7 and below
+
+
+//FIRST ALL THE IMPORTS
+//First we add in a reset and some normalize magic
+// TODO: Go through Normalize and remove anything un-required/un-used
+@import "base/_normalize";
+
+//Settings Imported - These are unique for each project (fonts, colours, baseline settings etc)
+@import "_settings";
+
+//Mixins loaded first to ensure they work (using Sass Globbing)
+@import "mixins/*";
+
+
+//Grid (GridsetApp)
+// @import "vendors/_gridset";
+
+//Framework Settings (Body, HTML, Footer, Header, Containers, Resets)
+@import "base/_framework";
+@import "base/_helpers";
+
+
+//SLECT MODULES AS REQUIRED
+//Typography, Links, Colour Styling , Tables, Forms, Boxes
+
+@import "modules/_typography";
+@import "modules/_links";
+@import "modules/_colours";
+@import "modules/_images";
+// @import "modules/social-media";
+// @import "modules/_blockquote"
+// @import "modules/_boxes";
+
+//Table Styles
+@import "modules/_tables";
+
+//Form Styles
+@import "modules/_forms";
+
+//CSS3 ANIMATIONS
+// @import "unique/_animations";
+
+
+
+
+
+
+
+// //Layout Styles (using Sass Globbing)
+@import "layouts/*";
+
+
+
+
+
+// TODO: Perhaps import this at the end using Google CSS import? or inline style in header? See what's best.
+// @import "vendors/_google-fonts";
+
+
+//Magnificant Lightbox Gallery (Responsive)
+// @import "vendors/_magnificant-popup";
+
+
+//Icon Styles
+// @import "vendors/_icons";
+
+
+
+
+//Print Styles
+@import "base/_print";
+
+//DEBUG MODE
+@import "base/_debug";
+

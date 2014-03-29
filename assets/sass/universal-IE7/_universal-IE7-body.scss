@@ -1,0 +1,14 @@
+/* Body ---------------------------------------------------- */
+
+body {
+width : 60%;
+
+/* http://www.cameronmoll.com/archives/000892.html */
+width : expression(document.body.clientWidth < 640? "640px" : document.body.clientWidth > 120? "120em" : "auto");
+margin : 0 auto;
+padding : 2em 0;
+font : 88% $body-font;
+line-height : 1.4;
+background :  $white;
+color : $black;
+}

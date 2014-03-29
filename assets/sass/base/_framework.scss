@@ -1,0 +1,110 @@
+/* ==========================================================================
+ INIAL RESETS
+========================================================================== */
+/* See Normalize for addition resets and set-ups */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+ }
+
+ h1,h2,h3,h4,h5,h6,
+ p,blockquote,pre,
+ figure,
+ dl,dd,ol,ul,
+ form,fieldset,legend,
+ table,th,td,caption,
+ hr{
+	margin:0;
+	padding:0;
+ }
+
+ /* ==========================================================================
+	ONE WAY MARGINS
+ ========================================================================== */
+
+ p, h1, h2, h3, h4, h5, h6, hgroup, dd, figure, pre, table, fieldset, legend, hr {
+ 	@include remit(margin-bottom, $bsu);
+ }
+
+
+ /* ==========================================================================
+	MAIN FRAMEWORK DOCUMENT SETUP
+ ========================================================================== */
+
+html {
+	font-size: 100%;
+	overflow-y: scroll;
+}
+
+body
+{
+	margin:0 auto;
+	// @include font-size($base-font-size);
+	-webkit-font-smoothing: antialiased;
+	color:$text-color;
+}
+
+.container {
+	@extend %cf;
+	// @extend %padding-container;
+	// max-width:em($x-large);
+	// min-width:em($x-small);
+	margin:0 auto;
+}
+
+.header {
+	@extend %cf;
+}
+
+
+.footer {
+	@extend %cf;
+	width:100%;
+	position:relative;
+	background-color:$base-color;
+
+	// Kept as an example of how to use media queries
+	// @include mq($small) {
+	// 	@include remit(padding-top, $bsu);
+	// 	@include remit(padding-bottom, $hsu);
+	// }
+}
+
+
+//TODO: THIS NEEDS TO Be MOVeD AND SETUP SO IF NOT USeD (its for JS show/hide)
+// .show-more {
+// 	cursor:pointer;
+// }
+
+
+
+/* ==========================================================================
+  HR RULES
+========================================================================== */
+
+hr {
+	border: solid $grey 0px;
+	border-top:solid $grey 1px;
+	height:0px;
+	clear:both;
+}
+
+/* ==========================================================================
+   SELECTION STYLING
+========================================================================== */
+/* This is used to change the highlight colour when selecting text.
+ * Nice bespoke touch to websites.
+ * Full article here: http://davidwalsh.name/css-selection
+ */
+
+::-moz-selection {
+	background: $base-color;
+	color: $white;
+	text-shadow: none;
+}
+
+::selection {
+	background: $base-color;
+	color: $white;
+	text-shadow: none;
+}

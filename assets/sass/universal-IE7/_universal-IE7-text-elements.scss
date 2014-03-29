@@ -1,0 +1,57 @@
+/* Text elements -------------------------------------------------------------- */
+
+p {
+margin : 0 0 1.5em; }
+
+a {
+color : $base-color;
+text-decoration : underline; }
+
+a:visited {
+color : darken($base-color, 40%); }
+
+a:focus, a:hover {
+color : lighten($base-color, 30%); }
+
+a img {
+border : none; }
+
+blockquote {
+margin : 1.5em 1.5em 1.5em -1.5em;
+padding-left : 1.5em;
+border-left : 1px solid $base-color;
+font : italic 1.2em "Times New Roman", Times, serif; }
+
+strong {
+font-weight : bold; }
+
+em, dfn {
+font-style : italic; }
+
+dfn {
+font-weight : bold; }
+
+sup, sub {
+line-height : 0; }
+
+abbr, acronym {
+border-bottom : 1px dotted $base-color;
+cursor : help; }
+
+address {
+margin : 0 0 1.5em;
+font-style : italic; }
+
+del {
+color : lighten($base-color, 20%);
+}
+
+pre, code, tt {
+margin : 1.5em 1.5em 1.5em -1.5em;
+padding-left : 1.5em;
+border-left : 1px dotted $base-color;
+font : 1em 'andale mono', 'lucida console', monospace;
+line-height : 1.5; }
+
+pre {
+white-space : pre; }

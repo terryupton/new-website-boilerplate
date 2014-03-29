@@ -1,0 +1,61 @@
+/* ==========================================================================
+	SOCIAL MEDIA LINK STYLES
+========================================================================== */
+
+%icon-social {
+	@include font-size(42);
+	@include remit(margin, 0 8);
+	//transition: all .60s ease;
+	text-decoration:none;
+	position:relative;
+	top:0px;
+
+	.footer & {
+		color:$white;
+	}
+
+	.social-sharing & {
+		@include font-size(36);
+		@include remit(margin, 0 4);
+	}
+
+	&:hover,&:focus,&:active {
+		//transition: all .60s ease;
+		top:10px;
+	}
+}
+
+.twitter {
+	@extend %icon-social;
+	@extend %twitter;
+}
+
+.linkedin {
+	@extend %icon-social;
+	@extend %linkedin;
+}
+
+.facebook {
+	@extend %icon-social;
+	@extend %facebook;
+}
+
+.googleplus {
+	@extend %icon-social;
+	@extend %googleplus;
+}
+
+.youtube {
+	@extend %icon-social;
+	@extend %youtube;
+}
+
+// .social-sharing .sharing-email {
+// 	@extend %icon-social;
+// 	@include remit(padding, 7);
+// 	@include remit(margin-left, 4);
+// 	@include font-size(20);
+// 	color:$white;
+// 	background-color:darken($grey, 20%);
+// 	border-radius:50%;
+// }

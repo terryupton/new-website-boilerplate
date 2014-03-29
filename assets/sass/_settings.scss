@@ -1,0 +1,97 @@
+//*---------------------------------------------------
+//   SETTING STYLES v1.1
+// ---------------------------------------------------
+//  A set of unique SASS font/typography and colour styles by Terry Upton (Amasci Creative Limited)
+//	These will be unique for every project.
+//-----------------------------------------------------*/
+
+//* ==========================================================================
+//   PROJECT SPECIFIC FONTS and BASELINES
+//========================================================================== */
+
+// Font Family's
+$font-header:				'Georgia', sans-serif;
+$font-body:					'Open Sans', sans-serif;
+
+
+// Fonts Sizes
+$base-font-size:			16;
+$base-line-height:			24;
+
+//Renamed these for Sassification Variables for Mixins
+$doc-font-size:				$base-font-size;
+$doc-line-height:			$base-line-height;
+
+$base-spacing-unit:			$base-line-height!default;
+$half-spacing-unit:			$base-spacing-unit / 2!default;
+
+//NEW Shorter Variables but calling the originals to protect legacy. Possibly remove the old names and replace with one variable name.
+$bsu:						$base-spacing-unit;
+$hsu:						$half-spacing-unit;
+
+$h1-font-size:				36;
+$h2-font-size:				28;
+$h3-font-size:				21;
+$h4-font-size:				18;
+$h5-font-size:				$base-font-size;
+$h6-font-size:				14;
+
+$p-font-size:				15;
+$footer-font-size:			13;
+
+
+//* ==========================================================================
+//   BASE COLOURS
+//========================================================================== */
+
+$base-color:				#094fa3;
+$sub-color:					#000;
+
+$link-color:				$base-color;
+$hover-color:				#3dacd6;
+
+$text-color:				#666;
+$text-header-color:			$base-color;
+
+$black:						$sub-color;
+$white:						#FFF;
+$grey:						#d9d9d9;
+
+$error-color:				#b94a48;
+$error-background:			#f2dede;
+
+$success-color:				#468847;
+$success-background:		#dff0d8;
+
+
+//* ==========================================================================
+//   BREAK POINTS
+//========================================================================== */
+
+// media query 'major breakpoint' variables
+
+$x-small:					320;
+$smaller:					480;
+$small:						600;
+$medium:					760;
+$regular:					800;
+$large:						1100;
+$x-large:					1300;
+
+// Sassification Breakpoints
+
+// $tiny:					320;
+// $smaller:				480;
+// $small:					600;
+// $medium:					760;
+// $regular:				900;
+// $large:					1100;
+// $extra-large:			1300;
+
+
+
+//* ==========================================================================
+//   Debug Mode (on or off)
+//========================================================================== */
+
+$debugMode:					false;

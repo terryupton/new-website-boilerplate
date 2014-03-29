@@ -1,0 +1,53 @@
+// variable overides (either overide here or edit the variables within the partial .scss files to your set up)
+
+// fonts
+	// heading font
+	$heading-font: Georgia, Times, "Times New Roman", serif;
+	// 'everything else' font
+	$body-font: Verdana, Geneva, sans-serif;
+
+// colours
+	$base-color: #80c342;
+	$comp-color: #231f20;
+	// your 'black' maybe a little nuanced
+	$black: #231f20;
+	// your 'white' maybe a little nuanced
+	$white: #FFF;
+
+	$error-color: 				#b94a48;
+	$error-background: 			#f2dede;
+
+
+// 'in partial' colours
+
+	// 'in partial' heading colours
+	$main-heading-color: $base-color;
+	$sub-heading-color: $comp-color;
+
+	// 'in partial' form border colour
+	$form-border-color: $comp-color;
+
+	// 'in partial' table border colour
+	$table-border-color: $comp-color;
+
+	// 'in partial' definition list border colour
+	$definition-list-border-color: $comp-color;
+
+// dark or light design
+
+$light: true !default;
+
+@if $light == true {
+}
+
+
+// All the imports
+@import "universal-IE7/_universal-IE7-thanks";
+@import "universal-IE7/_universal-IE7-reset";
+@import "universal-IE7/_universal-IE7-body";
+@import "universal-IE7/_universal-IE7-headings";
+@import "universal-IE7/_universal-IE7-text-elements";
+@import "universal-IE7/_universal-IE7-lists";
+@import "universal-IE7/_universal-IE7-tables";
+@import "universal-IE7/_universal-IE7-forms";
+@import "universal-IE7/_universal-IE7-styles";

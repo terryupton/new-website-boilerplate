@@ -1,0 +1,62 @@
+{
+	"convertHtmlOutput": null,
+	"customRubyPath": null,
+	"debug": true,
+	"domain": null,
+	"followLeader": true,
+	"lintScripts": false,
+	"modelSource": null,
+	"publishedId": null,
+	"serverHostname": null,
+	"serverPort": null,
+	"templateDefaultLayout": "layout",
+	"templateDefaultPage": "index",
+	"templateDirectory": "templates",
+	"type": "simple",
+	"useCompass": false,
+
+	"preprocessorLocations": "assets",
+	"preprocessorScriptOutput": "assets/js",
+	"preprocessorStyleOutput": "assets/css",
+
+	"projectDescription": "Hendry Construction Limited",
+	"projectName": "hendryconstruction.co.uk",
+	"simpleModePartnerServer": "hendryconstruction.loc",
+
+	"optimiseSVG": true,
+	"optimiseImages": false,
+
+	"sass": {
+		"outputStyle": "nested",
+		"sourceMap": false,
+		"cache": false,
+		"lineNumbers": false,
+		"debugInfo": false,
+		"globbing": true,
+		"useLibSass": false
+	},
+
+
+	"customTodos": [
+		{
+			"fileTypes": "php,js",
+			"regex": "(?<=/[*] TODO:).*?(?=[*]/)"
+		},
+		{
+			"fileTypes": "php",
+			"regex": "(?<=<!-- TODO:).*?(?=-->)"
+		}
+	],
+
+	"autoPrefixer": {
+		"active": true,
+			"browsers": [
+					"last 2 version",
+					"> 1%",
+					"ie 8"
+			]
+	},
+
+	"ftpSettings": null
+
+}

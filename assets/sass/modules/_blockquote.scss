@@ -1,0 +1,67 @@
+/* ==========================================================================
+  BLOCKQUOTE
+========================================================================== */
+
+blockquote:before,
+q:before {
+	content: "";
+	padding:20px 0px 0px 0px;
+	}
+
+blockquote:after,
+q:after {
+	content: "";
+	float:right; margin-top:-20px;
+}
+
+blockquote {
+	@include font-size(14);
+	color: $text-color;
+	background-color:$grey;
+
+	@extend %no-gutter;
+	@include remit(padding, $bsu);
+
+	@include mq($small) {
+		@include remit(margin, $bsu*2);
+		@include remit(padding, $bsu);
+		border-left:10px solid $grey;
+		background-color:transparent;
+	}
+
+	p {
+		quotes : "\"" "\"" "'" "'";
+		@include font-size(14);
+		color: $text-color;
+		font-style:italic;
+
+		&:before, &:after  {
+			@include remit(margin, 0 2);
+		}
+
+		&:before {content: open-quote;}
+		&:after {content: close-quote;}
+
+	}
+
+	cite {
+		@include font-size(15);
+		display: block;
+		color:$base-color;
+
+		@include mq($small) {
+			@include remit(margin, $hsu 30 0 $bsu);
+			@include remit(padding-left, 20);
+		}
+
+
+		&:before {
+			content: "\2014 \0020";
+		}
+	}
+
+	.headline {
+		@extend .gamma;
+		color:$base-color;
+	}
+}

@@ -1,0 +1,23 @@
+/*---------------------------------------------------
+    COLOUR STYLES v1.1
+  ---------------------------------------------------
+    A set of common SASS colour styles by Terry Upton (Amasci Creative Limited)
+	These should be unique for every project.
+-----------------------------------------------------*/
+
+/* ==========================================================================
+   COLOUR STYLES
+========================================================================== */
+
+.base-color 		{color:$base-color;}
+.sub-color 			{color:$sub-color;}
+.required 			{color:$base-color; font-weight:bold;}
+
+.error-text 		{color:$error-color;}
+// .success-text		{color:$success-color;}
+
+%twitter 			{color:#00aced;}
+%facebook 			{color:#3b5998;}
+%googleplus 		{color:#dd4b39;}
+%linkedin 			{color:#007bb6;}
+%youtube 			{color:#bb0000;}

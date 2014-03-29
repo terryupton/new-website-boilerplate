@@ -1,0 +1,90 @@
+/* ==========================================================================
+	BASE LINK STYLES
+========================================================================== */
+
+a {
+	// Property, Duration, Animation Type
+	transition: all .60s ease;
+	color:$link-color;
+	text-decoration:none;
+
+	&:hover,&:focus,&:active {
+		color:$hover-color;
+		text-decoration:none;
+	}
+}
+
+.footer a {
+	color:$hover-color;
+	text-decoration:none;
+
+	&:hover,&:focus,&:active {
+		color:$white;
+	}
+}
+
+a[href^="tel:"] {
+	color:$sub-color;
+
+	.footer & {
+		color:$white;
+	}
+}
+
+/* ==========================================================================
+	BUTTON STYLES
+========================================================================== */
+
+%btn, .btn {
+	@include remit(padding, $hsu $bsu);
+	text-decoration:none;
+	position:relative;
+
+	&:hover,&:focus,&:active {
+		background-color:$sub-color;
+		color:$white;
+	}
+}
+
+.btn-base {
+	@extend %btn;
+	background-color:$base-color;
+	color:$white;
+}
+
+// .btn-arrow {
+// 	&:before {
+// 		position:absolute;
+// 		left:10px;
+// 		top:38%;
+// 		width: 0;
+// 		height: 0;
+// 		border-left: 7px solid $white;
+// 		border-bottom: 6px solid transparent;
+// 		border-top: 6px solid transparent;
+// 		content:'';
+// 	}
+// }
+
+
+
+// /* ==========================================================================
+//   MISC LINK STYLES
+// ========================================================================== */
+
+// .top {
+// 	@extend .icon-arrow-up;
+// 	@include font-size(24);
+// 	@include remit(padding, $hsu);
+// 	@include remit(right, $bsu);
+// 	@include remit(bottom, $bsu);
+// 	cursor:pointer;
+// 	position:fixed;
+// 	background-color:$sub-color;
+// 	color:$white;
+// 	display: none;
+
+// 	&:hover,&:focus,&:active {
+// 		background-color:$hover-color;
+// 	}
+// }

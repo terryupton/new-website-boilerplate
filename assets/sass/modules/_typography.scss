@@ -1,0 +1,132 @@
+/* ==========================================================================
+	HEADING STYLES
+========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+	color:$text-header-color;
+	font-family:$font-header;
+	text-rendering: optimizeLegibility;
+}
+
+h1, .alpha 		{
+	@include font-size($h1-font-size);
+}
+
+
+h2, .beta {
+	@include font-size($h2-font-size);
+}
+
+h3, .gamma	{
+	@include font-size($h3-font-size);
+}
+
+
+h4, .delta {
+	@include font-size($h4-font-size);
+}
+
+h5, .epsilon {
+	@include font-size($h5-font-size);
+}
+
+h6, .zeta {
+	@include font-size($h6-font-size);
+}
+
+// .block-title {
+// 	@include remit(padding, $hsu $bsu);
+// 	background-color:$base-color;
+// 	color:$white;
+
+// 	a {
+// 		color:$white;
+// 	}
+// }
+
+
+/* ==========================================================================
+	PARAGRAPH AND LIST STYLES
+========================================================================== */
+
+
+/* List Style */
+ul.square	{list-style: square inside;}
+ul.disc 	{list-style: circle inside;}
+ul.bullet 	{list-style: disc inside;}
+
+// Remove vertical spacing from nested lists.
+li {
+	> ul,
+	> ol{
+		 margin-bottom:0;
+	 }
+}
+
+.lead {
+	color:$base-color;
+	@include font-size($p-font-size * 1.125);
+}
+
+
+// This styles the main content of the page
+// For other content sections and to change styling on paragraphs and headings and chunks create new blocks like side-bar etc
+.main-copy {
+
+	p {
+		color:$text-color;
+		@include font-size($p-font-size);
+	}
+
+	ul, ol {
+		@include remit(margin-bottom, $bsu);
+		color:$text-color;
+	}
+
+	ul 	{list-style: disc inside;}
+	ol 	{list-style: decimal inside;}
+
+	li	{
+		@include font-size($p-font-size, no);
+		@include remit(margin, $hsu);
+	}
+
+}
+
+
+
+.footer {
+
+	p {
+		@include font-size($footer-font-size);
+		color:$white;
+	}
+}
+
+
+// .bullet-cols {
+// 	// number of cols, gap between in rems
+// 	// TODO: improve this mixin to include PXs and base unit as PXs and modularise it
+// 	@include cols(2, 1);
+// }
+
+
+/* ==========================================================================
+   FONT WEIGHTS AND SIZES
+========================================================================== */
+
+%caps 				{text-transform:uppercase;}
+
+// .extra-light 		{font-weight:100;}
+// .light 				{font-weight:300;}
+// .normal 			{font-weight:400;}
+// .bold			 	{font-weight:700;}
+// .extra-bold 		{font-weight:900;}
+
+
+// .xsmall 			{@include font-size(11);}
+// .small 				{@include font-size(14);}
+// .regular 			{@include font-size($base-font-size);}
+// .medium 			{@include font-size(18);}
+// .large 				{@include font-size(21);}
+// .xlarge 			{@include font-size(30);}

@@ -1,0 +1,155 @@
+/* ==========================================================================
+   BASE TABLE
+========================================================================== */
+
+table {
+width: 90%;
+max-width: 100%;
+
+	th,
+	td {
+		@include font-size(14);
+		@include remit(padding, 10);
+		// @extend .text-left;
+
+		vertical-align: top;
+		border-top: 1px solid $grey;
+		color:$text-color;
+
+	}
+
+	th {
+		@include font-size(14);
+		background-color:$base-color;
+		color:$white;
+	}
+
+	thead th {
+	vertical-align: bottom;
+	}
+
+	tbody tr td,
+	tbody tr th {
+		transition: background-color .25s lnear;
+	}
+
+	thead:first-child tr:first-child th,
+	tbody:first-child tr:first-child th,
+	tbody:first-child tr:first-child td {
+		border-top: 0;
+	}
+
+
+}
+
+/* ==========================================================================
+	BORDERED TABLE
+========================================================================== */
+
+.table--bordered {
+	border: 1px solid $grey;
+	border-left: 0;
+	border-collapse: separate;
+	*border-collapse: collapsed;
+
+	th,
+	td {
+		border-left: 1px solid $grey;
+	}
+}
+
+/* ==========================================================================
+	STRIPED TABLE
+========================================================================== */
+
+.table--striped {
+	tbody tr:nth-child(odd) td {
+		background-color : rgba($grey, .3);
+	}
+}
+
+/* ==========================================================================
+	RESPONSIVE TABLES
+========================================================================== */
+
+// TODO: IN BP But a RWD True and then if/else RWD Elements
+
+// @include mq(705, false, max) {
+
+// 	/* Force table to not be like tables anymore */
+// 	.table--rwd {
+// 		thead,
+// 		tbody,
+// 		th,
+// 		td,
+// 		tr {
+// 			@include font-size(12);
+// 			display: block;
+// 		}
+
+// 		/* Hide table headers (but not display: none;, for accessibility) */
+// 		thead tr {
+// 			position: absolute;
+// 			top: -9999px;
+// 			left: -9999px;
+// 		}
+
+// 		//tr { border: 1px solid #ccc; }
+
+// 		td {
+// 			/* Behave  like a "row" */
+// 			border: none;
+// 			border-bottom: 1px solid #eee;
+// 			position: relative;
+// 			padding-left: 50%;
+// 			white-space: normal;
+// 			text-align:left;
+
+// 			&:before  {
+// 				/* Now like a table header */
+// 				position: absolute;
+// 				/* Top/left values mimic padding */
+// 				// top: 6px;
+// 				@include remit(left, 6);
+// 				@include remit(pading-right, 10);
+// 				width: 45%;
+// 				white-space: nowrap;
+// 				text-align:left;
+// 				font-weight: bold;
+
+// 				/* Label the data */
+// 				content: attr(data-title);
+// 			}
+// 		}
+
+// 	}
+
+// 	.table--rwd-stacked {
+// 		thead,
+// 		tbody,
+// 		th,
+// 		td,
+// 		tr {
+// 			@include font-size(12);
+// 			display: block;
+// 		}
+
+// 		/* Hide table headers (but not display: none;, for accessibility) */
+// 		thead tr {
+// 			position: absolute;
+// 			top: -9999px;
+// 			left: -9999px;
+// 		}
+
+// 		//tr { border: 1px solid #ccc; }
+
+// 		td {
+// 			/* Behave  like a "row" */
+// 			border: none;
+// 			position: relative;
+// 			white-space: normal;
+// 			text-align:left;
+// 		}
+
+// 	}
+// }

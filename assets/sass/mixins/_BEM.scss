@@ -1,0 +1,16 @@
+// Only works w/ Sass 3.3
+
+// sub-components or elements get appended with "__" and the $name
+
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+// modifiers get appended with "--" and the $name
+
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}

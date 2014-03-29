@@ -1,0 +1,4 @@
+@mixin cols($count, $gap:1.5) {
+	column-count:$count;
+	column-gap:$gap + rem;
+}

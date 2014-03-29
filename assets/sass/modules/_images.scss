@@ -1,0 +1,67 @@
+/* ==========================================================================
+	 IMAGES
+========================================================================== */
+img {
+	/* Responsive images (ensure images don't scale beyond their parents) */
+
+	max-width: 100%;
+	/* Part 1: Set a maxium relative to the parent */
+
+	width: auto\9;
+	/* IE7-8 need help adjusting responsive images */
+
+	height: auto;
+	/* Part 2: Scale the height according to the width, otherwise you get stretching */
+
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic;
+
+	font-style:italic;
+	/*So that `alt` text is visually offset if images don’t load */
+}
+
+/**
+ * Non-fluid images if you specify 'width' and/or 'height' attributes.
+ */
+img[width],
+img[height]{
+	max-width:none;
+}
+
+/* ==========================================================================
+	 IMAGE PLACEMENTS
+========================================================================== */
+.img-right {
+	@include remit(margin-bottom, $bsu);
+	@include remit(margin-left, $bsu);
+	float:right;
+}
+
+.img-left {
+	@include remit(margin-bottom, $bsu);
+	@include remit(margin-right, $bsu);
+	float:left;
+}
+
+.img-center {
+	@include remit(margin-bottom, $bsu);
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/* ==========================================================================
+	 MISC/UNIQUE IMAGE STYLES
+========================================================================== */
+
+.logo {
+	@include remit(margin-bottom, $bsu);
+}
+
+
+%img-circle {
+	@include remit(margin-bottom, $hsu);
+	border-radius:50%;
+	box-shadow: 0px 0px 0px 3px $white;
+
+}
