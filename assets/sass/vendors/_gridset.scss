@@ -196,8 +196,8 @@
 
   @if $prefix == d {
     @if $type == min { @media only screen and (min-width: 800px) { @content; } }
-    @else if ($type == max) { @media only screen and (max-width: 1300px) { @content; } }
-    @else if ($type == min-max) { @media only screen and (min-width: 800px) and (max-width: 1300px) { @content; } }
+    @else if ($type == max) { @media only screen and (max-width: 1400px) { @content; } }
+    @else if ($type == min-max) { @media only screen and (min-width: 800px) and (max-width: 1400px) { @content; } }
   }
   @else if $prefix == ta {
     @if $type == min { @media only screen and (min-width: 480px) { @content; } }
