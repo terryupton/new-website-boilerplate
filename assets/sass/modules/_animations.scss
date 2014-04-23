@@ -14,3 +14,15 @@
 		transform:translateY(0);
 	}
 }
+
+
+
+@keyframes shake {
+	0% { transform: translate(0px); }
+	17% { transform: translate(10px); }
+	34% { transform: translate(-10px); }
+	51% { transform: translate(6px); }
+	68% { transform: translate(-6px); }
+	85% { transform: translate(3px); }
+	100% { transform: translate(0px); }
+}

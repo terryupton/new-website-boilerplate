@@ -129,4 +129,9 @@ label {
 	color: $error-color;
 	float: left;
 	font-weight:bold;
+
+	animation-name:shake;
+	animation-fill-mode:both;
+	animation-delay: 0.6s;
+	animation-duration:1s;
 }
