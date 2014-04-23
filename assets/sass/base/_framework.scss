@@ -39,6 +39,7 @@ html {
 body
 {
 	margin:0 auto;
+	font-family:$font-body;
 	// @include font-size($base-font-size);
 	-webkit-font-smoothing: antialiased;
 	color:$text-color;
