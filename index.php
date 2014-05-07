@@ -64,16 +64,12 @@
 
 	<!-- JS Files via Fetch -->
 	<!--
-	START
+	START LIST OF FILES
 
 	Respond
 	A fast & lightweight Polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)
 
-	HTML5 Shiv
-	The HTML5 Shiv enables use of HTML5 sectioning elements in legacy Internet Explorer and provides basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x.
-
-	JQuery.min
-	The latest minified version of JQuery
+	MODERNIZR - BASED ON REQUIREMENTS AND ADD HMYL5 SHIV
 
 	END LIST OF FILES
 	-->
