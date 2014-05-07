@@ -1,1 +1,50 @@
-This needs to be completed and setup as a template too.
+/* SITE */
+	Language: ENGLISH
+	Standards: HTML5, CSS3
+	Components: jQuery, JS, Sass, MYSQL, PHP, Google Fonts, Gridset
+	IDE: Photoshop, Illustrator, Mixture, Sublime Text, JPEGmini, ImageOptim, ImageAlpha, Pixa, DropBox, Trello
+	CMS: Perch
+
+
+/* TEAM */
+	UI, UX, Design, Front-end Dev: Terry Upton, Amasci Creative Ltd (amasci.co.uk)
+	Twitter: @terry_upton, @amascicreative
+	From: Milton Keynes, UK
+
+	Sassifaction: Stu Robson (alwaystwisted.com)
+	Twitter: @StuRobson
+	From: Salisbury, UK
+
+
+/* THANKS */
+
+	Sassifaction: Stu Robson (alwaystwisted.com)
+	Twitter: @StuRobson
+	From: Salisbury, UK
+
+	INUITCSS: Harry Roberts (inuitcss.com)
+	Twitter: @csswizardry‎
+	From: Leeds, UK
+
+	Perch: Drew McLellan (grabaperch.com)
+	Twitter: @drewm
+	From: Bristol, UK
+
+	Related Modules in Perch: James Hall (horlix.com)
+	Twitter: @horlix
+	From: Nottingham, UK
+
+	Performance Review: Matt West (mattwest.io)
+	Twitter: @MattAntWest
+	From: Brixworth, UK
+
+	Quick Pagination: Sam Deering (jquery4u.com/author/sdeering/)
+	Twitter: @samdeering
+	From: Australia
+
+	FitVids: Chris Coyer (css-tricks.com) and Dave Rupert (paravelinc.com)
+	Twitter: @chriscoyier	@davatron5000
+
+	Responsive Tabs: Pete Love (petelove.com
+	Twitter: @pete_love
+	From: Cardiff, UK

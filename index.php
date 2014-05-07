@@ -40,6 +40,10 @@
 	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- TODO: Complete the HUMANS File -->
+	<!-- HUMANS
+	================================================== -->
+	<link type="text/plain" rel="author" href="/humans.txt" />
 
 	<!-- CSS
 	================================================== -->
