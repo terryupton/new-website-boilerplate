@@ -1,19 +1,3 @@
-<?php
-#Filename based cache busting made easy
-#http://heatherevens.me.uk/2013/07/01/filename-based-cache-busting-made-easy/
-##################################################################################
-function cachifyFileName($fileName)
-{
-  if (file_exists($fileName))
-  {
-	$lastModified = filemtime($fileName);
-	$pathParts = pathinfo($fileName);
-	$fileName = $pathParts['dirname'].'/'.$pathParts['filename'].'.'.$lastModified.'.'.$pathParts['extensions'];
-  }
-  return $fileName;
-}
-?>
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
