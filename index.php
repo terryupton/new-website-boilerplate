@@ -146,12 +146,12 @@
 	<nav id="nav" class="main-menu" role="navigation">
 		<ul>
 			<li><a href="#search" accesskey="1" tabindex="1" class="search-link icon-search m-hide t-hide d-show"><span>Search</span></a></li>
-			<li><a href="/" accesskey="2" tabindex="2" <?php echo $current[1] ?>>Home</a></li>
-			<li><a href="" accesskey="3" tabindex="3" <? echo $current[2] ?>>Item</a></li>
-			<li><a href="" accesskey="4" tabindex="4" <?php echo $current[3] ?>>Item</a></li>
-			<li><a href="" accesskey="5" tabindex="5" <?php echo $current[4] ?>>Item</a></li>
-			<li><a href="" accesskey="6" tabindex="6" <?php echo $current[5] ?>>Item</a></li>
-			<li><a href="" accesskey="7" tabindex="7" <?php echo $current[6] ?>>Contact</a></li>
+			<li><a href="/" <?php echo $current[1] ?>>Home</a></li>
+			<li><a href="" <? echo $current[2] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[3] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[4] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[5] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[6] ?>>Contact</a></li>
 		</ul>
 	</nav>
 
