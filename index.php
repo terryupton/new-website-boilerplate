@@ -1,3 +1,14 @@
+<?php
+//AUTO COPYRIGHT NOTICE
+##################################################################################
+	function auto_copyright($year = 'auto'){
+		if(intval($year) == 'auto'){ $year = date('Y'); }
+		if(intval($year) == date('Y')){ echo intval($year); }
+		if(intval($year) < date('Y')){ echo intval($year) . ' - ' . date('Y'); }
+		if(intval($year) > date('Y')){ echo date('Y'); }
+	}
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -43,7 +54,7 @@
 	<!-- TODO: Complete the HUMANS File -->
 	<!-- HUMANS
 	================================================== -->
-	<link type="text/plain" rel="author" href="/humans.txt" />
+	<link type="text/plain" rel="author" href="/humans.txt" /
 
 	<!-- CSS
 	================================================== -->
@@ -222,7 +233,7 @@
 		<p>Registered Address.13 Seymore Road, Aston, Sheffield, South Yorkshire, S26 2DG</p>
 
 		<p>All Content &copy; Watfields Limited<br>
-		Website &copy; <a href="http://www.amasci.co.uk" target="_blank" title="visit Amasci Creative Limited - Web Solutons, Graphic Design and much more."  class="textFooterAmasci">Amasci Creative Limited, website design Milton Keynes</a> 2013</p>
+		Website &copy; <a href="http://www.amasci.co.uk" target="_blank" title="visit Amasci Creative Limited - Web Solutons, Graphic Design and much more."  class="textFooterAmasci">Amasci Creative Limited, website design Milton Keynes</a> <?php auto_copyright('2014'); ?></p>
 		</p>
 	</div>
 </footer>
