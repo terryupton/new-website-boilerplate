@@ -36,12 +36,12 @@
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
 	<!-- Mobile Specific Meta Data
-  ================================================== -->
+	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 	<!-- CSS
-  ================================================== -->
+	================================================== -->
 
 	<!-- Main Styles -->
 
@@ -59,7 +59,7 @@
 
 
 	<!-- JAVASCRIPTS
-  ================================================== -->
+	================================================== -->
 
 	<!-- JS Files via Fetch -->
 	<!--
@@ -228,7 +228,7 @@
 
 
 <!-- JAVASCRIPTS
- ================================================== -->
+================================================== -->
 
 <!-- TODO: Replace JQuery with CDN and Local Fallback. Update Version number as required -->
 <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
