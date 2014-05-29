@@ -73,7 +73,7 @@ ErrorDocument 404 /404/
 
 <IfModule mod_rewrite.c>
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_URI} /(index)|(home)(..{3,4})?$ [NC]
+  RewriteCond %{REQUEST_URI} /(index)(..{3,4})?$ [NC]
   RewriteRule ^([^/]+/)+ /$1? [R=301,L]
 </IfModule>
 
