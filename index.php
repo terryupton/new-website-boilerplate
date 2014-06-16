@@ -142,12 +142,11 @@
 </head>
 
 <body>
-<div class="wrapper">
 	<!--[if lt IE 8]>
 	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<header role="banner">
+	<header role="banner" class="header">
 		<a href="/" title="Homepage"><img src="img/logo.png" alt="Logo" class="logo"></a>
 	</header>
 
@@ -235,11 +234,10 @@
 				</p>
 	</aside>
 	</div>
-</div>
 
 
 
-<footer role="contentinfo">
+<footer role="contentinfo" clsss="footer">
 	<div class="container">
 		<p>Watfields Limited are registered at Companies House England and Wales<br>
 		Company Registration Number. 08138894</p>
