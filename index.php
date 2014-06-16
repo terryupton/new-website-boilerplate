@@ -64,9 +64,9 @@
 	<!--[if ! lt IE 8]><!-->
 		<!--Stylesheets for browsers other than lower than Internet Explorer 8 -->
 		<?php  if($host == 'localhost') { ?>
-		<link href="/assets/css/style.min.css" rel="stylesheet" type="text/css" media="screen, projection">
+		<link href="/assets/css/style.min.css" rel="stylesheet" type="text/css" media="screen, projection, print">
 		<?php } else { ?>
-		<link href="/assets/css/style.min.<?php echo filectime($_SERVER['DOCUMENT_ROOT'].'/assets/css/style.min.css'); ?>.css" rel="stylesheet" type="text/css" media="screen, projection">
+		<link href="/assets/css/style.min.<?php echo filectime($_SERVER['DOCUMENT_ROOT'].'/assets/css/style.min.css'); ?>.css" rel="stylesheet" type="text/css" media="screen, projection, print">
 		<?php } ?>
 	<!--<![endif]-->
 
