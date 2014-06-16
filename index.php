@@ -1,4 +1,9 @@
 <?php
+	$host = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+?>
+
+<?php
+
 //AUTO COPYRIGHT NOTICE
 ##################################################################################
 	function auto_copyright($year = 'auto'){
