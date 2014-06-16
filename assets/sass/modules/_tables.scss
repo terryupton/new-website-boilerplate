@@ -14,13 +14,13 @@ max-width: 100%;
 
 		vertical-align: top;
 		border-top: 1px solid $grey;
-		color:$text-color;
+		color:$color-text;
 
 	}
 
 	th {
 		@include font-size(14);
-		background-color:$base-color;
+		background-color:$color-base;
 		color:$white;
 	}
 

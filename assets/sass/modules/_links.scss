@@ -5,17 +5,17 @@
 a {
 	// Property, Duration, Animation Type
 	transition: all .60s ease;
-	color:$link-color;
+	color:$color-link;
 	text-decoration:none;
 
 	&:hover,&:focus,&:active {
-		color:$hover-color;
+		color:$color-hover;
 		text-decoration:none;
 	}
 }
 
 .footer a {
-	color:$hover-color;
+	color:$color-hover;
 	text-decoration:none;
 
 	&:hover,&:focus,&:active {
@@ -24,7 +24,7 @@ a {
 }
 
 a[href^="tel:"] {
-	color:$sub-color;
+	color:$color-sub;
 
 	.footer & {
 		color:$white;
@@ -41,14 +41,14 @@ a[href^="tel:"] {
 	position:relative;
 
 	&:hover,&:focus,&:active {
-		background-color:$sub-color;
+		background-color:$color-sub;
 		color:$white;
 	}
 }
 
 .btn-base {
 	@extend %btn;
-	background-color:$base-color;
+	background-color:$color-base;
 	color:$white;
 }
 
@@ -80,11 +80,11 @@ a[href^="tel:"] {
 // 	@include remit(bottom, $bsu);
 // 	cursor:pointer;
 // 	position:fixed;
-// 	background-color:$sub-color;
+// 	background-color:$color-sub;
 // 	color:$white;
 // 	display: none;
 
 // 	&:hover,&:focus,&:active {
-// 		background-color:$hover-color;
+// 		background-color:$color-hover;
 // 	}
 // }

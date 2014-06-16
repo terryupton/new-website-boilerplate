@@ -9,12 +9,12 @@
    COLOUR STYLES
 ========================================================================== */
 
-.base-color 		{color:$base-color;}
-.sub-color 			{color:$sub-color;}
-.required 			{color:$base-color; font-weight:bold;}
+.base-color 		{color:$color-base;}
+.sub-color 			{color:$color-sub;}
+.required 			{color:$color-base; font-weight:bold;}
 
-.error-text 		{color:$error-color;}
-// .success-text		{color:$success-color;}
+.error-color 		{color:$color-error;}
+// .success-color		{color:$success-color;}
 
 %twitter 			{color:#00aced;}
 %facebook 			{color:#3b5998;}

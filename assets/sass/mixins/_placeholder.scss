@@ -1,4 +1,4 @@
-@mixin placeholder($color: $text-color, $alpha: .8) {
+@mixin placeholder($color: $color-text, $alpha: .8) {
 	&::-webkit-input-placeholder {
 		color: rgba($color, $alpha);
 	}  /* WebKit browsers */

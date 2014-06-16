@@ -42,7 +42,7 @@ body
 	font-family:$font-body;
 	// @include font-size($base-font-size);
 	-webkit-font-smoothing: antialiased;
-	color:$text-color;
+	color:$color-text;
 }
 
 .container {
@@ -62,7 +62,7 @@ body
 	@extend %cf;
 	width:100%;
 	position:relative;
-	background-color:$base-color;
+	background-color:$color-base;
 
 	// Kept as an example of how to use media queries
 	// @include mq($small) {
@@ -99,13 +99,13 @@ hr {
  */
 
 ::-moz-selection {
-	background: $base-color;
+	background: $color-base;
 	color: $white;
 	text-shadow: none;
 }
 
 ::selection {
-	background: $base-color;
+	background: $color-base;
 	color: $white;
 	text-shadow: none;
 }

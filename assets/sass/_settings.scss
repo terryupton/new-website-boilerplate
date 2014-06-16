@@ -44,24 +44,28 @@ $footer-font-size:			13;
 //   BASE COLOURS
 //========================================================================== */
 
-$base-color:				#094fa3;
-$sub-color:					#000;
+// TODO: Get Colour Names - http://chir.ag/projects/name-that-color/#FF5B00
 
-$link-color:				$base-color;
-$hover-color:				#3dacd6;
-
-$text-color:				#666;
-$text-header-color:			$base-color;
-
-$black:						$sub-color;
+$black:						#000;
 $white:						#FFF;
 $grey:						#d9d9d9;
 
-$error-color:				#b94a48;
-$error-background:			#f2dede;
 
-$success-color:				#468847;
-$success-background:		#dff0d8;
+$color-base:				;
+$color-sub:					;
+$color-tri					;
+
+$color-link:				$color-base;
+$color-hover:				;
+
+$color-text:				#666;
+$color-text-header:			$color-base;
+
+$color-error:				#b94a48;
+$bg-error:					#f2dede;
+
+$color-success:				#468847;
+$bg-success:				#dff0d8;
 
 
 //* ==========================================================================

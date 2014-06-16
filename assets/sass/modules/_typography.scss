@@ -3,7 +3,7 @@
 ========================================================================== */
 
 h1, h2, h3, h4, h5, h6 {
-	color:$text-header-color;
+	color:$color-text-header
 	font-family:$font-header;
 	text-rendering: optimizeLegibility;
 }
@@ -36,7 +36,7 @@ h6, .zeta {
 
 // .block-title {
 // 	@include remit(padding, $hsu $bsu);
-// 	background-color:$base-color;
+// 	background-color:$color-base;
 // 	color:$white;
 
 // 	a {
@@ -64,7 +64,7 @@ li {
 }
 
 .lead {
-	color:$base-color;
+	color:$color-base;
 	@include font-size($p-font-size * 1.125);
 }
 
@@ -74,13 +74,13 @@ li {
 .main-copy {
 
 	p {
-		color:$text-color;
+		color:$color-text;
 		@include font-size($p-font-size);
 	}
 
 	ul, ol {
 		@include remit(margin-bottom, $bsu);
-		color:$text-color;
+		color:$color-text;
 	}
 
 	ul 	{list-style: disc inside;}

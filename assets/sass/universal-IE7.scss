@@ -7,31 +7,31 @@
 	$body-font: Verdana, Geneva, sans-serif;
 
 // colours
-	$base-color: #80c342;
-	$comp-color: #231f20;
+	$color-base: #80c342;
+	$color-comp: #231f20;
 	// your 'black' maybe a little nuanced
 	$black: #231f20;
 	// your 'white' maybe a little nuanced
 	$white: #FFF;
 
-	$error-color: 				#b94a48;
-	$error-background: 			#f2dede;
+	$color-error: 		#b94a48;
+	$bg-error: 			#f2dede;
 
 
 // 'in partial' colours
 
 	// 'in partial' heading colours
-	$main-heading-color: $base-color;
-	$sub-heading-color: $comp-color;
+	$main-heading-color: $color-base;
+	$sub-heading-color: $color-comp;
 
 	// 'in partial' form border colour
-	$form-border-color: $comp-color;
+	$form-border-color: $color-comp;
 
 	// 'in partial' table border colour
-	$table-border-color: $comp-color;
+	$table-border-color: $color-comp;
 
 	// 'in partial' definition list border colour
-	$definition-list-border-color: $comp-color;
+	$definition-list-border-color: $color-comp;
 
 // dark or light design
 

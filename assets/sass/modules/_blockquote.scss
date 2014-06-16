@@ -16,7 +16,7 @@ q:after {
 
 blockquote {
 	@include font-size(14);
-	color: $text-color;
+	color: $color-text;
 	background-color:$grey;
 
 	@extend %no-gutter;
@@ -32,7 +32,7 @@ blockquote {
 	p {
 		quotes : "\"" "\"" "'" "'";
 		@include font-size(14);
-		color: $text-color;
+		color: $color-text;
 		font-style:italic;
 
 		&:before, &:after  {
@@ -47,7 +47,7 @@ blockquote {
 	cite {
 		@include font-size(15);
 		display: block;
-		color:$base-color;
+		color:$color-base;
 
 		@include mq($small) {
 			@include remit(margin, $hsu 30 0 $bsu);
@@ -62,6 +62,6 @@ blockquote {
 
 	.headline {
 		@extend .gamma;
-		color:$base-color;
+		color:$color-base;
 	}
 }
