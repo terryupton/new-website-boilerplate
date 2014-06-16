@@ -36,4 +36,18 @@
 	ul {
 		@extend %nav;
 	}
+
+	li {}
+
+	a {
+
+		&:hover,&:focus,&:active {
+			color:$hover-color;
+			text-decoration:none;
+		}
+	}
+
+	.current {
+
+	}
 }
