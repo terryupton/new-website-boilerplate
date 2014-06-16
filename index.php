@@ -103,12 +103,6 @@
 	<![endif]-->
 
 
-
-	<!-- TODO: Google Analytics Code to be recreated from account and look into moving to the footer?  -->
-	<!--GOOGLE ANALYTCIS-->
-	<!--END GOOGLE ANALYTCIS-->
-
-
 	<!-- Favicons
 	================================================== -->
 	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
