@@ -149,17 +149,18 @@
 		<a href="/" title="Homepage"><img src="img/logo.png" alt="Logo" class="logo"></a>
 	</header>
 
-	<div class="terry">
-		Terry
+	<div class="container terry">
+		<p>Terry and Container</p>
+		<p>π<span class="icon-example" aria-hidden="true"><span class="alt">Icon code example</span></span></p>
 	</div>
 
 
 	<?php $current[$sectionNumber] = 'class="current"';	?>
 	<nav id="nav" class="main-menu" role="navigation">
 		<ul>
-			<li><a href="#search" accesskey="1" tabindex="1" class="search-link icon-search m-hide t-hide d-show"><span>Search</span></a></li>
+			<li><a href="#search" class="search-link icon-search m-hide t-hide d-show"><span>Search</span></a></li>
 			<li><a href="/" <?php echo $current[1] ?>>Home</a></li>
-			<li><a href="" <? echo $current[2] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[2] ?>>Item</a></li>
 			<li><a href="" <?php echo $current[3] ?>>Item</a></li>
 			<li><a href="" <?php echo $current[4] ?>>Item</a></li>
 			<li><a href="" <?php echo $current[5] ?>>Item</a></li>
