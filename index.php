@@ -102,34 +102,29 @@
 		<script type="text/javascript" src="/assets/js/respond.min.js"></script>
 	<![endif]-->
 
-
 	<!-- Favicons
-	================================================== -->
-	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		================================================== -->
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-	<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/touch/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/touch/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/touch/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/touch/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/touch/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/touch/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/touch/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/touch/apple-touch-icon-152x152.png">
-	<link rel="icon" type="image/png" href="/assets/img/touch/favicon-196x196.png" sizes="196x196">
-	<link rel="icon" type="image/png" href="/assets/img/touch/favicon-160x160.png" sizes="160x160">
-	<link rel="icon" type="image/png" href="/assets/img/touch/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/assets/img/touch/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="/assets/img/touch/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/touch/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/touch/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/touch/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/touch/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/touch/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/touch/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/touch/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/touch/apple-touch-icon-152x152.png">
 
-	<!-- Win8 tile -->
-	<meta name="msapplication-TileColor" content="#c6982d">
-	<meta name="msapplication-TileImage" content="/assets/img/touch/mstile-144x144.png">
-	<meta name="application-name" content="name" />
+		<!-- Win8 tile -->
+		<meta name="msapplication-TileColor" content="#c6982d">
+		<meta name="msapplication-TileImage" content="/assets/img/touch/mstile-144x144.png">
+		<meta name="application-name" content="name" />
 
-	<!-- IE11 tiles -->
-	<meta name="msapplication-square70x70logo" content="/assets/img/touch/mstile-70x70.png"/>
-	<meta name="msapplication-square150x150logo" content="/assets/img/touch/mstile-150x150.png"/>
-	<meta name="msapplication-wide310x150logo" content="/assets/img/touch/mstile-310x150.png">
+		<!-- IE11 tiles -->
+		<meta name="msapplication-square70x70logo" content="/assets/img/touch/mstile-70x70.png"/>
+		<meta name="msapplication-square150x150logo" content="/assets/img/touch/mstile-150x150.png"/>
+		<meta name="msapplication-wide310x150logo" content="/assets/img/touch/mstile-310x150.png">
 
 
 	<!-- Gridset App Temp Files
