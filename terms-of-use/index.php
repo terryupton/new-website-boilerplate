@@ -1,7 +1,7 @@
 <?php
 include("../main-functions.php");
 
-$company = "Comaony Name";
+$company = "Company Name";
 $website = "www.domain.co.uk";
 $email = "info@domain.co.uk";
 
