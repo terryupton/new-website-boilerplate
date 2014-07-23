@@ -77,7 +77,7 @@
 
 
 	<!--[if lt IE 8]>
-		<link rel="stylesheet" href="/assets/css/universal-IE7.min.css" media="screen, projection">
+		<link rel="stylesheet" href="/assets/css/universal-IE7.min.css" rel="stylesheet" type="text/css" media="screen, projection">
 	<![endif]-->
 
 
