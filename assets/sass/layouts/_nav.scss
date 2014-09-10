@@ -2,29 +2,30 @@
 	NAVIGATION STYLES
 ========================================================================== */
 
-%nav {
-	list-style:none;
-	margin-left:0;
-	@extend %cf;
+// TODO: Remove this if never used..?
+// %nav {
+// 	list-style:none;
+// 	margin-left:0;
+// 	@extend %cf;
 
-	> li{
+// 	> li{
 
-		&,
-		> a{
-			@extend %inline-block;
-		}
-	}
+// 		&,
+// 		> a{
+// 			@extend %inline-block;
+// 		}
+// 	}
 
-	@include m(stacked) {
-		> li{
-		display:list-item;
+// 	@include m(stacked) {
+// 		> li{
+// 		display:list-item;
 
-		> a{
-			display:block;
-			}
-		}
-	}
-}
+// 		> a{
+// 			display:block;
+// 			}
+// 		}
+// 	}
+// }
 
 
 /* ==========================================================================
@@ -34,7 +35,7 @@
 .main-menu {
 
 	ul {
-		@extend %nav;
+		// @extend %nav;
 	}
 
 	li {}
