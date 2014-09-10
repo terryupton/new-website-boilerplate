@@ -4,7 +4,7 @@
 
 a {
 	// Property, Duration, Animation Type
-	transition: all .60s ease;
+	transition: $g-trans;
 	color:$color-link;
 	text-decoration:none;
 
