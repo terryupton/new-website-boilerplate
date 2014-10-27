@@ -1,0 +1,57 @@
+/* ==========================================================================
+	MODULES
+========================================================================== */
+
+// %island,
+// .&islet{
+// 	@extend %cf;
+// 	display:block;
+
+// 	> &:last-child {
+// 		margin-bottom:0;
+// 	}
+// }
+
+// %island{
+// 	@include remit(padding, $bsu);
+// }
+
+
+// %islet{
+// 	@include remit(padding, $hsu);
+// }
+
+
+// %module {
+// 	@extend %cf;
+// 	@extend %island;
+// 	// @extend %no-gutter;
+// 	position:relative;
+// }
+
+
+/* ==========================================================================
+	LAYOUT MODULES
+========================================================================== */
+
+.feature {
+	@include remit(padding, 36 $hsu);
+	@extend %no-gutter;
+	text-align:center;
+}
+
+
+.content--primary {
+
+	@include mq($regular) {
+		@include gs-span(d, 1,7);
+		padding-right:gs-gutter(d,false,true);
+	}
+}
+
+.content--secondary {
+
+	@include mq($regular) {
+		@include gs-span(d, 8,12);
+	}
+}
