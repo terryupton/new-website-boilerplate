@@ -274,20 +274,6 @@ AddDefaultCharset utf-8
 # </IfModule>
 
 # ------------------------------------------------------------------------------
-# | ETag removal                                                               |
-# ------------------------------------------------------------------------------
-
-# Since we're sending far-future expires headers (see below), ETags can
-# be removed: http://developer.yahoo.com/performance/rules.html#etags.
-
-# `FileETag None` is not enough for every server.
-<IfModule mod_headers.c>
-  Header unset ETag
-</IfModule>
-
-FileETag None
-
-# ------------------------------------------------------------------------------
 # | Expires headers (for better cache control)                                 |
 # ------------------------------------------------------------------------------
 
