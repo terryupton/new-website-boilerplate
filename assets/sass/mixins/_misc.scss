@@ -1,11 +1,11 @@
 // inline-block
 
 	@mixin inline-block {
-	  	display: inline-block;
-	  		.lt-ie9 & {
+		display: inline-block;
+			.lt-ie9 & {
 				zoom: 1;
 				*display: inline;
-	  		}
+			}
 	}
 
 // box-sizing with IE fallback and grid lovliness
