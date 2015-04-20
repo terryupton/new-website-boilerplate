@@ -44,7 +44,7 @@
 .content--primary {
 
 	@include mq($regular) {
-		@include gs-span(d, 1,7);
+		// @include gs-span(d, 1,7);
 		padding-right:gs-gutter(d,false,true);
 	}
 }
@@ -52,6 +52,6 @@
 .content--secondary {
 
 	@include mq($regular) {
-		@include gs-span(d, 8,12);
+		// @include gs-span(d, 8,12);
 	}
 }
