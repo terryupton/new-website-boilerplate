@@ -66,7 +66,7 @@
 
 	<!-- Main Styles -->
 
-	<!--[if ! lt IE 8]><!-->
+	<!--[if ! lt IE 9]><!-->
 		<!--Stylesheets for browsers other than lower than Internet Explorer 8 -->
 		<?php  if($host == 'localhost') { ?>
 		<link href="/assets/css/style.min.css" rel="stylesheet" type="text/css" media="screen, projection, print">
@@ -76,7 +76,7 @@
 	<!--<![endif]-->
 
 
-	<!--[if lt IE 8]>
+	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="/assets/css/universal-IE7.min.css" rel="stylesheet" type="text/css" media="screen, projection">
 	<![endif]-->
 
@@ -89,27 +89,27 @@
 
 	<!-- Favicons
 		================================================== -->
-		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">
-
 		<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/touch/apple-touch-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/touch/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/touch/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/touch/apple-touch-icon-144x144.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/touch/apple-touch-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/touch/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/touch/apple-touch-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/touch/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/touch/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/touch/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/touch/apple-touch-icon-144x144.png">
 		<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/touch/apple-touch-icon-152x152.png">
-
-		<!-- Win8 tile -->
-		<meta name="msapplication-TileColor" content="#c6982d">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/touch/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="/assets/img/touch/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/assets/img/touch/favicon-194x194.png" sizes="194x194">
+		<link rel="icon" type="image/png" href="/assets/img/touch/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/assets/img/touch/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/assets/img/touch/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/assets/img/touch/manifest.json">
+		<link rel="shortcut icon" href="/assets/img/touch/favicon.ico">
+		<meta name="msapplication-TileColor" content="#e13535">
 		<meta name="msapplication-TileImage" content="/assets/img/touch/mstile-144x144.png">
-		<meta name="application-name" content="name" />
-
-		<!-- IE11 tiles -->
-		<meta name="msapplication-square70x70logo" content="/assets/img/touch/mstile-70x70.png"/>
-		<meta name="msapplication-square150x150logo" content="/assets/img/touch/mstile-150x150.png"/>
-		<meta name="msapplication-wide310x150logo" content="/assets/img/touch/mstile-310x150.png">
+		<meta name="msapplication-config" content="/assets/img/touch/browserconfig.xml">
+		<meta name="theme-color" content="#e13535">
+		<!-- TODO: Get the fav icons for the project - http://realfavicongenerator.net -->
 
 
 	<!-- Gridset App Temp Files
@@ -121,7 +121,7 @@
 </head>
 
 <body>
-	<!--[if lt IE 8]>
+	<!--[if lt IE 9]>
 	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
@@ -131,19 +131,21 @@
 
 	<div class="container terry">
 		<p>Terry and Container</p>
-		<p>π<span class="icon-example" aria-hidden="true"><span class="alt">Icon code example</span></span></p>
+		<!-- SVG Example -->
+		<svg class="icon" aria-labelledby="title-icon-name" aria-describedby="desc-icon-name">
+			<use xlink:href="/assets/img/icons.svg#icon-name"></use>
+		</svg>
 	</div>
 
 
-	<?php $current[$sectionNumber] = 'class="current"';	?>
+	<?php $current[$section] = 'class="current"';	?>
 	<nav id="nav" class="main-menu" role="navigation">
 		<ul>
-			<li><a href="#search" class="search-link icon-search m-hide t-hide d-show"><span>Search</span></a></li>
-			<li><a href="/" <?php echo $current[1] ?>>Home</a></li>
-			<li><a href="" <?php echo $current[2] ?>>Item</a></li>
-			<li><a href="" <?php echo $current[3] ?>>Item</a></li>
-			<li><a href="" <?php echo $current[4] ?>>Item</a></li>
-			<li><a href="" <?php echo $current[5] ?>>Item</a></li>
+			<li><a href="/" <?php echo $current[home] ?>>Home</a></li>
+			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
+			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
 			<li><a href="" <?php echo $current[6] ?>>Contact</a></li>
 		</ul>
 	</nav>
