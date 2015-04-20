@@ -28,6 +28,8 @@ img[height]{
 	max-width:none;
 }
 
+svg { max-height: 100%; }
+
 /* ==========================================================================
 	 IMAGE PLACEMENTS
 ========================================================================== */
@@ -49,6 +51,43 @@ img[height]{
 	margin-right:auto;
 	margin-left:auto;
 }
+
+// .img-right--medium, %img-right--medium {
+// 	@extend %img-center;
+
+// 	@include mq($medium) {
+// 		@include remit(margin-left, $bsu);
+// 		float:right;
+// 	}
+// }
+
+// .img-right--small, %img-right--small {
+// 	@extend %img-center;
+
+// 	@include mq($small) {
+// 		@include remit(margin-left, $bsu);
+// 		float:right;
+// 	}
+// }
+
+
+// ========================================================================== //
+//	 FIGURES
+// ========================================================================== //
+
+// figure {
+// 	@include remit(margin-top, $bsu*2);
+// 	@include remit(margin-bottom, $bsu*2);
+// }
+
+// figcaption {
+// 	@include font-size(13, no, 20);
+// 	color:$color-base;
+// 	font-style:italic;
+// 	@include remit(margin-top, 6);
+// }
+
+
 
 /* ==========================================================================
 	 MISC/UNIQUE IMAGE STYLES
