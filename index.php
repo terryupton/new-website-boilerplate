@@ -59,7 +59,7 @@
 	<!-- TODO: Complete the HUMANS File -->
 	<!-- HUMANS
 	================================================== -->
-	<link type="text/plain" rel="author" href="/humans.txt" /
+	<link type="text/plain" rel="author" href="/humans.txt" />
 
 	<!-- CSS
 	================================================== -->
@@ -171,6 +171,10 @@
 				<!--<img src="/images/logo.png" class="logo" alt="Watfeilds Limited Logo">-->
 				<h1 class="flush-bottom">Watfields Full Website Coming Soon</h1>
 				<h2>Precision Engineering Specialists in Sheffield and Yorkshire</h2>
+
+				<svg class="icon" aria-labelledby="title-icon-name" aria-describedby="desc-icon-name">
+					<use xlink:href="/assets/img/icons.svg#icon-name"></use>
+				</svg>
 
 				<p>Watfields Ltd is a family run Precision Engineering company born out of genuine passion for production manufacturing and all that it entails. Our main services include Turning, milling, CAD drawing, reverse engineering, Material and product sourcing, Design and development, Project Management, Sub-contract work and machining only services. We are best suited to Job and batch production runs up to 1000 pieces however we are happy to quote on all prospective work.</p>
 
