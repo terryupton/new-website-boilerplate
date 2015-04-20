@@ -2,21 +2,22 @@
    HELPER STYLES
 ========================================================================== */
 
-// .island-top 				{@include remit(margin-top, $bsu*2);}
-// .island-right 			{@include remit(margin-right, $bsu*2);}
-// .island-bottom 			{@include remit(margin-bottom, $bsu*2);}
-// .island-left 			{@include remit(margin-left, $bsu*2);}
-// .island					{@include remit(margin, $bsu*2);}
+// .island-top 			{@include remit(margin-top, 60, !important); }
+// .island-right 			{@include remit(margin-right, 60, !important);}
+// .island-bottom 			{@include remit(margin-bottom, 60, !important);}
+// .island-left 			{@include remit(margin-left, 60, !important);}
+// .island					{@include remit(margin, 60, !important);}
 
-// .margin-top 				{@include remit(margin-top, $bsu);}
-// .margin-right 			{@include remit(margin-right, $bsu);}
-// .margin-bottom 			{@include remit(margin-bottom, $bsu);}
-// .margin-left 			{@include remit(margin-left, $bsu);}
+// .margin-top 				{@include remit(margin-top, $bsu, !important);}
+// .margin-right 			{@include remit(margin-right, $bsu, !important);}
+// .margin-bottom 			{@include remit(margin-bottom, $bsu, !important);}
+// .margin-left 			{@include remit(margin-left, $bsu, !important);}
 
-// .half-margin-top 		{@include remit(margin-top, $hsu);}
-// .half-margin-right 		{@include remit(margin-right, $hsu);}
-// .half-margin-bottom 		{@include remit(margin-bottom, $hsu);}
-// .half-margin-left 		{@include remit(margin-left, $bsu);}
+// .half-margin-top 		{@include remit(margin-top, $hsu, !important);}
+// .half-margin-right 		{@include remit(margin-right, $hsu, !important);}
+// .half-margin-bottom 	{@include remit(margin-bottom, $hsu, !important);}
+// .half-margin-left 		{@include remit(margin-left, $bsu, !important);}
+
 
 // .flush-top 				{margin-top:0 !important;}
 // .flush-right 			{margin-right:0 !important;}

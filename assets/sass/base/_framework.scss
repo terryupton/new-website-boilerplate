@@ -13,7 +13,7 @@
  dl,dd,ol,ul,
  form,fieldset,legend,
  table,th,td,caption,
- hr{
+ hr {
 	margin:0;
 	padding:0;
  }
@@ -22,7 +22,7 @@
 	ONE WAY MARGINS
  ========================================================================== */
 
- p, h1, h2, h3, h4, h5, h6, hgroup, dd, figure, pre, table, fieldset, legend, hr {
+ p, h1, h2, h3, h4, h5, h6, hgroup, dd, figure, pre, table, fieldset, legend, hr, time {
  	@include remit(margin-bottom, $bsu);
  }
 
@@ -51,24 +51,6 @@ body
 	// max-width:em($x-large);
 	// min-width:em($x-small);
 	margin:0 auto;
-}
-
-.header {
-	@extend %cf;
-}
-
-
-.footer {
-	@extend %cf;
-	width:100%;
-	position:relative;
-	background-color:$color-base;
-
-	// Kept as an example of how to use media queries
-	// @include mq($small) {
-	// 	@include remit(padding-top, $bsu);
-	// 	@include remit(padding-bottom, $hsu);
-	// }
 }
 
 

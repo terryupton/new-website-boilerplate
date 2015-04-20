@@ -9,11 +9,11 @@
    COLOUR STYLES
 ========================================================================== */
 
-.base-color 		{color:$color-base;}
-.sub-color 			{color:$color-sub;}
+.color--base 		{color:$color-base !important;}
+.color--sub 			{color:$color-sub !important;}
 .required 			{color:$color-base; font-weight:bold;}
 
-.error-color 		{color:$color-error;}
+.color-error 		{color:$color-error !important;}
 // .success-color		{color:$success-color;}
 
 %twitter 			{color:#00aced;}

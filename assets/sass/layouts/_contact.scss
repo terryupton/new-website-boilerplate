@@ -1,0 +1,56 @@
+/* ==========================================================================
+	CONTACT STYLES
+========================================================================== */
+
+.tel {
+
+	@include font-size(30);
+
+	// .header__call & {
+	// 	color:$color-tri;
+	// 	@extend %alpha;
+	// 	line-height:1;
+	// }
+
+	// .header__tel & {
+	// 	color:$white;
+	// 	@include font-rem(24);
+	// 	line-height:1;
+
+	// 	@include mq($regular) {
+	// 		@include font-rem(32);
+	// 	}
+	// }
+
+	// .footer & {
+	// 	@include remit(margin-bottom, 8);
+	// }
+}
+
+
+.email {
+	@include font-size(24);
+}
+
+
+.address {
+	@include font-size(16);
+
+	// .footer & {
+	// 	color:$white;
+	// }
+
+	// &--float {
+	// 	float:left;
+	// 	margin-right:10%;
+
+	// 	@include mq($x-large) {
+	// 		margin-right:20%;
+	// 	}
+
+	// 	&:last-of-type{
+	// 		margin-right:0;
+	// 	}
+	// }
+}
+
