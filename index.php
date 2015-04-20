@@ -84,23 +84,8 @@
 	<!-- JAVASCRIPTS
 	================================================== -->
 
-	<!-- JS Files via Fetch -->
-	<!--
-	START LIST OF FILES
-
-	Respond
-	A fast & lightweight Polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)
-
-	MODERNIZR - BASED ON REQUIREMENTS AND ADD HMYL5 SHIV
-
-	END LIST OF FILES
-	-->
-
-	<script type="text/javascript" src="/assets/js/modernizr.min.js"></script>
-
-	<!--[if lt IE 9]>
-		<script type="text/javascript" src="/assets/js/respond.min.js"></script>
-	<![endif]-->
+	<!-- DOWNLOAD BESPOKE MODERNIZR IF REQUIED. Based on website -->
+	<!-- <script type="text/javascript" src="/assets/js/modernizr.min.js"></script> -->
 
 	<!-- Favicons
 		================================================== -->
@@ -254,27 +239,15 @@
 ================================================== -->
 
 <!-- TODO: Replace JQuery with CDN and Local Fallback. Update Version number as required -->
-<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/assets/js/jquery.min.js"><\/script>')</script>-->
+<script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/jquery-1.11.2.min..js"><\/script>')</script>-->
 
-<script type="text/javascript" src="/assets/js/functions.min.js"></script>
-
-<!--[if IE 7]>
-<script>
-$.fn.equalheight = function() { return this };
-</script>
-<![endif]-->
+<script type="text/javascript" src="/assets/js/production.<?php echo filectime($_SERVER['DOCUMENT_ROOT'].'/assets/js/production.min.js'); ?>.min.js"></script>
 
 <!-- TODO: Google Analytics Code to be created from account -->
 <!--GOOGLE ANALYTCIS-->
 <!--END GOOGLE ANALYTCIS-->
-
-
-<!-- TODO: REMOVE GRIDSET JS COMMENTS -->
-<!-- Gridset App Temp Files
-================================================== -->
-<!-- <script src="https://get.gridsetapp.com/21997/overlay/"></script> -->
 
 </body>
 </html>
