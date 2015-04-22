@@ -1,5 +1,6 @@
 <?php
-include("../main-functions.php");
+include($_SERVER['DOCUMENT_ROOT'].'/includes/header.php');
+include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');
 
 do_html_header (
 	//$pageNumber (unique page number - for menu highlighting)
@@ -29,20 +30,19 @@ do_html_header (
 
 ?>
 
-    <h1>404 Error</h1>
+	<h1>404 Error</h1>
 
 	<h2>Sorry page not found</h2>
 
-	 <p><b>Unfortunately, we could not find the page you have requested.</b></p>
-	 <p>This might be because :</p>
-	  <ul class="square">
-	  	<li>You may have typed the web address incorrectly. Please check the web address and spelling ensuring that it does not contain unwanted characters or spaces.</li>
+	<p><b>Unfortunately, we could not find the page you have requested.</b></p>
+	<p>This might be because :</p>
+
+	<ul>
+		<li>You may have typed the web address incorrectly. Please check the web address and spelling ensuring that it does not contain unwanted characters or spaces.</li>
 		<li>It is possible that the page you have requested may have been moved, updated or deleted.</li>
 	</ul>
 
-	<p>Please try navigating  again from our <a href="index.php" title="homepage">homepage</a></p>
-
-	<br class="clear">
+	<p>Please try navigating  again from our <a href="/" title="homepage">homepage</a></p>
 
 <?php
 	do_html_footer();
