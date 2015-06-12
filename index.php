@@ -126,7 +126,7 @@
 	<![endif]-->
 
 	<header role="banner" class="header">
-		<a href="/" title="Homepage"><img src="img/logo.png" alt="Logo" class="logo"></a>
+		<a href="/" title="Homepage"><img src="/assets/img/logo.svg" alt="Logo" class="logo"></a>
 	</header>
 
 	<div class="container terry">
@@ -139,7 +139,7 @@
 
 
 	<?php $current[$section] = 'class="current"';	?>
-	<nav id="nav" class="main-menu" role="navigation">
+	<nav id="nav" class="nav nav--main" role="navigation">
 		<ul>
 			<li><a href="/" <?php echo $current[home] ?>>Home</a></li>
 			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
@@ -245,7 +245,7 @@
 <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/jquery-1.11.2.min..js"><\/script>')</script>-->
 
-<script type="text/javascript" src="/assets/js/production.<?php echo filectime($_SERVER['DOCUMENT_ROOT'].'/assets/js/production.min.js'); ?>.min.js"></script>
+<script type="text/javascript" src="/assets/js/production.min.<?php echo filectime($_SERVER['DOCUMENT_ROOT'].'/assets/js/production.min.js'); ?>.js"></script>
 
 <!-- TODO: Google Analytics Code to be created from account -->
 <!--GOOGLE ANALYTCIS-->

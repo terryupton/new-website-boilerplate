@@ -125,8 +125,7 @@ li {
 
 
 // .xsmall 			{@include font-size(11);}
-// .small 				{@include font-size(14);}
-// .regular 			{@include font-size($base-font-size);}
-// .medium 			{@include font-size(18);}
-// .large 				{@include font-size(21);}
+// .small 				{font-size:80% !important;}
+// .medium 			{font-size:110% !important;}
+.large 				{font-size:130% !important;}
 // .xlarge 			{@include font-size(30);}

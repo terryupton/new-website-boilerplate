@@ -39,17 +39,40 @@ a[href^="tel:"] {
 	@include remit(padding, $hsu $bsu);
 	text-decoration:none;
 	position:relative;
+	text-align:center;
+	width:140px;
+	font-weight:400 !important;
 
-	&:hover,&:focus,&:active {
-		background-color:$color-sub;
-		color:$white;
+	&:last-of-type {
+		margin-bottom:0;
 	}
-}
 
-.btn-base {
-	@extend %btn;
-	background-color:$color-base;
-	color:$white;
+	&--base {
+		color:$color-base;
+
+		@include hover() {
+			color:$color-sub;
+		}
+	}
+
+	&--grey {
+		color:$grey;
+
+		@include hover() {
+			color:$color-sub;
+		}
+	}
+
+	// &--large {
+	// 	width:200px;
+	// 	@extend .large;
+	// }
+
+	& + & {
+		@include mq($small) {
+			@include remit(margin-left, $bsu);
+		}
+	}
 }
 
 // .btn-arrow {

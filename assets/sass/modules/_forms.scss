@@ -63,31 +63,28 @@ label {
 	color:$color-text;
 }
 
-
 /* ==========================================================================
-	ENQUIRY FORM STYLES
+	ALL FORM STYLES
 ========================================================================== */
 
-.enquiry-form {
-	input[type=text],
-	input[type=tel],
-	input[type=email],
+.form {
+	input,
 	select,
 	textarea {
 		@extend %text-input;
-		@include placeholder($color-text);
+		@include placeholder(lighten($color-text, 30%));
 		width:90%;
 
 		&:focus, &.required:focus {
 			@include placeholder($white);
-			border:2px solid rgba($white, .6);
+			border:1px solid rgba($white, .6);
 			background-color: $color-base;
 			color:$white;
 			outline: none;
 		}
 
 		&.required {
-			@include placeholder($color-sub);
+			font-weight:400;
 		}
 
 		&.error {
@@ -98,26 +95,87 @@ label {
 		}
 	}
 
-	select {
-		border:0;
+	.submit {
+		@extend %btn;
+		color:$color-base;
 		background-color:transparent;
-		width:100%;
-		margin:0;
+
+		@include hover() {
+			color:$color-sub;
+		}
 	}
 
-	.select-list {
-		@extend %select-list;
-		@include remit(margin-top, 5);
-		width:90%;
-	}
+	&__item {
+		@include remit(margin-top, $bsu);
 
-	button {
-		@extend .btn-base;
-		@include font-size(13);
-		border:2px solid $white;
-	}
+		@include mq($small) {
+			@include gs-span(db, 1,6);
+			@include gs-float(db, left);
+			margin-top:0;
 
+			&:nth-of-type(2n) {
+				margin-right:0;
+			}
+
+		}
+	}
 }
+
+
+/* ==========================================================================
+	ENQUIRY FORM STYLES
+========================================================================== */
+
+// .enquiry-form {
+// 	input[type=text],
+// 	input[type=tel],
+// 	input[type=email],
+// 	select,
+// 	textarea {
+// 		@extend %text-input;
+// 		@include placeholder($color-text);
+// 		width:90%;
+
+// 		&:focus, &.required:focus {
+// 			@include placeholder($white);
+// 			border:2px solid rgba($white, .6);
+// 			background-color: $color-base;
+// 			color:$white;
+// 			outline: none;
+// 		}
+
+// 		&.required {
+// 			@include placeholder($color-sub);
+// 		}
+
+// 		&.error {
+// 			border: 1px solid $color-error;
+// 			background-color: $bg-error;
+// 			color: $color-error;
+// 			@include placeholder($color-error)
+// 		}
+// 	}
+
+// 	select {
+// 		border:0;
+// 		background-color:transparent;
+// 		width:100%;
+// 		margin:0;
+// 	}
+
+// 	.select-list {
+// 		@extend %select-list;
+// 		@include remit(margin-top, 5);
+// 		width:90%;
+// 	}
+
+// 	button {
+// 		@extend .btn-base;
+// 		@include font-size(13);
+// 		border:2px solid $white;
+// 	}
+
+// }
 
 /* ==========================================================================
 	ERROR STYLES
