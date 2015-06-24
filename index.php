@@ -253,5 +253,9 @@
 <!--GOOGLE ANALYTCIS-->
 <!--END GOOGLE ANALYTCIS-->
 
+
+<!-- TODO: Remove this accessibility script before going live -->
+<script src="/assets/js/tota11y.min.js"></script>
+
 </body>
 </html>
