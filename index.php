@@ -87,6 +87,8 @@
 	<!-- DOWNLOAD BESPOKE MODERNIZR IF REQUIED. Based on website -->
 	<!-- <script type="text/javascript" src="/assets/js/modernizr.min.js"></script> -->
 
+	<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+
 	<!-- Favicons
 		================================================== -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/touch/apple-touch-icon-57x57.png">
