@@ -1,14 +1,6 @@
 # exclusions from directories...
 User-agent: *
-Disallow: /cgi-bin/
-Disallow: /logs/
+#Disallow: /foldername/
 
 # site maps for search engines
-User-agent: Googlebot
-Sitemap: sitemap.xml
-
-User-agent: yahoo-mmcrawler
-Sitemap: sitemap.xml
-
-User-agent: MSNBot
-Sitemap: sitemap.xml
+Sitemap: http://www.regencyexectravel.co.uk/sitemap.xml
