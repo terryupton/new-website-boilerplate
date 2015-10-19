@@ -1,6 +1,7 @@
 <?php
 $host = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 session_start();
+include($_SERVER['DOCUMENT_ROOT'].'/cms/templates/layouts/global.functions.php');
 
 function do_html_header (
 	$pageNumber      ='',

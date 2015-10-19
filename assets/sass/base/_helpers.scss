@@ -119,6 +119,10 @@
 	display: none;
 }
 
+.alt {
+	@extend %visually-hidden;
+}
+
 //Image replacement (Replaces an image for text in HTML)
 %ir {
 	text-indent: 100%;

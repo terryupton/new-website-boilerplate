@@ -143,12 +143,9 @@
 	<?php $current[$section] = 'class="current"';	?>
 	<nav id="nav" class="nav nav--main" role="navigation">
 		<ul>
-			<li><a href="/" <?php echo $current[home] ?>>Home</a></li>
-			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
-			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
-			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
-			<li><a href="" <?php echo $current[item] ?>>Item</a></li>
-			<li><a href="" <?php echo $current[6] ?>>Contact</a></li>
+			<li><a href="/" <?php echo $current['home'] ?>>Home</a></li>
+			<li><a href="/item/" <?php echo $current['item'] ?>>Item</a></li>
+			<li><a href="/contact/" <?php echo $current['contact'] ?>>Contact</a></li>
 		</ul>
 	</nav>
 
@@ -225,7 +222,7 @@
 
 
 
-<footer role="contentinfo" clsss="footer">
+<footer role="contentinfo" class="footer">
 	<div class="container">
 		<p>Watfields Limited are registered at Companies House England and Wales<br>
 		Company Registration Number. 08138894</p>

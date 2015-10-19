@@ -36,3 +36,8 @@ mixture.json
 
 # gem
 *.gem
+
+#Sitemaps
+ror.xml
+sitemap.xml
+urllist.txt
