@@ -1,2 +1,2 @@
-@import "svg4everybody.js";
-@import "functions.js";
+//=include svg4everybody.js
+//=include functions.js
