@@ -10,7 +10,7 @@ var plugins 		= require('gulp-load-plugins')({
 /**
 * Hostname for project
 */
-var hostname = 'swh-v4.loc';
+var hostname = 'domain.loc';
 
 /**
 * Define base directories

@@ -1,7 +1,7 @@
 {
-  "name": "swh",
+  "name": "Project Name",
   "version": "1.0.0",
-  "description": "SWH V4",
+  "description": "Project Description",
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "*",
