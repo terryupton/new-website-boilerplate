@@ -1,0 +1,36 @@
+{
+  "name": "swh",
+  "version": "1.0.0",
+  "description": "SWH V4",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cheerio": "*",
+    "gulp-concat": "*",
+    "gulp-css-globbing": "*",
+    "gulp-imagemin": "*",
+    "gulp-include": "*",
+    "gulp-load-plugins": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-svgstore": "*",
+    "gulp-todo": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "imagemin-pngquant": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Amasci Creative Limited",
+  "license": "MIT"
+}
