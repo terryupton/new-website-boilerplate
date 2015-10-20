@@ -23,9 +23,8 @@
 //Mixins loaded first to ensure they work (using Sass Globbing)
 @import "mixins/*";
 
-
-//Grid (GridsetApp)
-@import "vendors/_gridset";
+//Susy
+@import "vendors/_susy";
 
 //Framework Settings (Body, HTML, Footer, Header, Containers, Resets)
 @import "base/_framework";

@@ -84,6 +84,7 @@ $social-media:(
 
 $g-trans:				all .40s ease;
 $g-radius:				15px;
+$g-spacing:				60;
 
 //* ==========================================================================
 //   BREAK POINTS
@@ -111,6 +112,48 @@ $nav-bp:					760;
 // $large:					1100;
 // $extra-large:			1300;
 
+
+//* ==========================================================================
+//  SUSY
+//	//http://susydocs.oddbird.net/en/latest/settings/#global-defaults
+//========================================================================== */
+
+// $susy: (
+// 	// container: 		90%,
+// 	columns: 		24,
+// 	gutters: 		60px,
+// 	math: 			fluid,
+// 	output: 		float,
+// );
+
+$susy: (
+	flow: ltr,
+	math: fluid,
+	output: float,
+	gutter-position: after,
+	container: auto,
+	container-position: center,
+	columns: 24,
+	gutters: 2,
+	column-width: false,
+	global-box-sizing: border-box,
+	last-flow: to,
+
+	debug: (
+		image: show-columns,
+		color: rgba(#66f, .25),
+		output: background,
+		toggle: top right,
+	),
+
+	use-custom: (
+		background-image: true,
+		background-options: false,
+		box-sizing: true,
+		clearfix: false,
+		rem: true,
+	)
+);
 
 //* ==========================================================================
 //  ANIMATIONS
