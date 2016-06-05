@@ -63,6 +63,10 @@ label {
 	color:$color-text;
 }
 
+#fax {
+	@extend .hidden;
+}
+
 /* ==========================================================================
 	ALL FORM STYLES
 ========================================================================== */
@@ -109,8 +113,8 @@ label {
 		@include remit(margin-top, $bsu);
 
 		@include mq($small) {
-			@include gs-span(db, 1,6);
-			@include gs-float(db, left);
+			// @include gs-span(db, 1,6);
+			// @include gs-float(db, left);
 			margin-top:0;
 
 			&:nth-of-type(2n) {

@@ -4,20 +4,10 @@
 
 .term {
 	@extend %cf;
-	border-bottom:1px solid $grey;
+	border-bottom:1px solid $lightgrey;
 	@include remit(margin-bottom, $bsu);
 
 	&:last-of-type {
 		border:0;
-	}
-
-	@include mq($large) {
-		@include gs-span(db, 1,5);
-		@include gs-float(d, left);
-
-		&:nth-of-type(even) {
-			@include gs-span(db, 7,12);
-			@include gs-float(d, right);
-		}
 	}
 }

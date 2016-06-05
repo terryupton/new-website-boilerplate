@@ -25,3 +25,14 @@
 		}
 	}
 }
+
+
+
+.social-list {
+
+	li {
+		list-style:none;
+		display:inline-block;
+		@include remit(margin-right, 10);
+	}
+}

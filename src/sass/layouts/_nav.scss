@@ -2,30 +2,20 @@
 	NAVIGATION STYLES
 ========================================================================== */
 
-// TODO: Remove this if never used..?
-// %nav {
-// 	list-style:none;
-// 	margin-left:0;
-// 	@extend %cf;
+.nav {
+	li {
+		list-style:none;
+		text-align:center;
 
-// 	> li{
+		@include mq($nav-bp) {
+			display:inline-block;
+		}
+	}
 
-// 		&,
-// 		> a{
-// 			@extend %inline-block;
-// 		}
-// 	}
-
-// 	@include m(stacked) {
-// 		> li{
-// 		display:list-item;
-
-// 		> a{
-// 			display:block;
-// 			}
-// 		}
-// 	}
-// }
+	a {
+		display:block;
+	}
+}
 
 
 /* ==========================================================================
@@ -34,9 +24,7 @@
 
 .nav--main {
 
-	ul {
-		// @extend %nav;
-	}
+	ul {}
 
 	li {}
 

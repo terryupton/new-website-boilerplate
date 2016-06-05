@@ -14,7 +14,6 @@
 
 //FIRST ALL THE IMPORTS
 //First we add in a reset and some normalize magic
-// TODO: Go through Normalize and remove anything un-required/un-used
 @import "base/_normalize";
 
 //Settings Imported - These are unique for each project (fonts, colours, baseline settings etc)
@@ -26,14 +25,16 @@
 //Susy
 @import "vendors/_susy";
 
+//CSS3 ANIMATIONS
+// @import "vendors/animate/_animate";
+// @import "modules/_animations";
+
 //Framework Settings (Body, HTML, Footer, Header, Containers, Resets)
 @import "base/_framework";
 @import "base/_helpers";
 
-
 //SLECT MODULES AS REQUIRED
 //Typography, Links, Colour Styling , Tables, Forms, Boxes
-
 @import "modules/_typography";
 @import "modules/_links";
 @import "modules/_colours";
@@ -44,44 +45,21 @@
 @import "modules/_modules";
 
 //Table Styles
-@import "modules/_tables";
+// @import "modules/_tables";
 
 //Form Styles
 @import "modules/_forms";
-
-//CSS3 ANIMATIONS
-// @import "modules/_animations";
-
-
-
-
-
 
 
 // //Layout Styles (using Sass Globbing)
 @import "layouts/*";
 
-
-
-
-
-// TODO: Perhaps import this at the end using Google CSS import? or inline style in header? See what's best.
-// @import "vendors/_google-fonts";
-
-
 //Magnificant Lightbox Gallery (Responsive)
 // @import "vendors/_magnificant-popup";
-
-
-//Icon Styles
-// @import "vendors/_icons";
-
-
 
 
 //Print Styles
 @import "base/_print";
 
 //DEBUG MODE
-@import "base/_debug";
-
+// @import "base/_debug";

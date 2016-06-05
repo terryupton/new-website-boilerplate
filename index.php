@@ -134,7 +134,7 @@
 	<div class="container terry">
 		<p>Terry and Container</p>
 		<!-- SVG Example -->
-		<svg class="icon" aria-labelledby="title-icon-name" aria-describedby="desc-icon-name">
+		<svg role="img" class="icon" title="Facebook Icon">
 			<use xlink:href="/assets/img/icons.svg#icon-name"></use>
 		</svg>
 	</div>
