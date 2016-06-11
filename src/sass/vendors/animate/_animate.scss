@@ -24,116 +24,116 @@
 //==================================================================================================//
 
 // Fade Enter
-$use-fadeIn 			:	false !default;
-$use-fadeInUp 			:	false !default;
-$use-fadeInUpBig 		:	false !default;
-$use-fadeInDown 		:	false !default;
-$use-fadeInDownBig 		:	false !default;
-$use-fadeInLeft 		:	false !default;
-$use-fadeInLeftBig 		:	false !default;
-$use-fadeInRight 		:	false !default;
-$use-fadeInRightBig 	:	false !default;
+// $use-fadeIn 			:	true;
+// $use-fadeInUp 			:	true;
+// $use-fadeInUpBig 		:	true;
+// $use-fadeInDown 		:	true;
+// $use-fadeInDownBig 		:	true;
+// $use-fadeInLeft 		:	true;
+// $use-fadeInLeftBig 		:	true;
+// $use-fadeInRight 		:	true;
+// $use-fadeInRightBig 	:	true;
 
 
 // Fade Exit
-$use-fadeOut			:   false !default;
-$use-fadeOutUp			:	false !default;
-$use-fadeOutUpBig   	:	false !default;
-$use-fadeOutDown		:	false !default;
-$use-fadeOutDownBig 	:	false !default;
-$use-fadeOutLeft		:	false !default;
-$use-fadeOutLeftBig 	:	false !default;
-$use-fadeOutRight		:	false !default;
-$use-fadeOutRightBig	:	false !default;
+// $use-fadeOut			:   true;
+// $use-fadeOutUp			:	true;
+// $use-fadeOutUpBig   	:	true;
+// $use-fadeOutDown		:	true;
+// $use-fadeOutDownBig 	:	true;
+// $use-fadeOutLeft		:	true;
+// $use-fadeOutLeftBig 	:	true;
+// $use-fadeOutRight		:	true;
+// $use-fadeOutRightBig	:	true;
 
 
 // Bounce Enter
-$use-bounceIn			:	false !default;
-$use-bounceInUp			: 	false !default;
-$use-bounceInDown 		: 	false !default;
-$use-bounceInLeft 		: 	false !default;
-$use-bounceInRight 		: 	false !default;
+// $use-bounceIn			:	true;
+// $use-bounceInUp			: 	true;
+// $use-bounceInDown 		: 	true;
+// $use-bounceInLeft 		: 	true;
+// $use-bounceInRight 		: 	true;
 
 
 // Bounce Exit
-$use-bounceOut			:	false !default;
-$use-bounceOutUp		: 	false !default;
-$use-bounceOutDown 		: 	false !default;
-$use-bounceOutLeft 		: 	false !default;
-$use-bounceOutRight 	: 	false !default;
+// $use-bounceOut			:	true;
+// $use-bounceOutUp		: 	true;
+// $use-bounceOutDown 		: 	true;
+// $use-bounceOutLeft 		: 	true;
+// $use-bounceOutRight 	: 	true;
 
 
 // Rotate Enter
-$use-rotateIn 			:	false !default;
-$use-rotateInUpLeft 	: 	false !default;
-$use-rotateInUpRight 	: 	false !default;
-$use-rotateInDownLeft 	: 	false !default;
-$use-rotateInDownRight 	: 	false !default;
+// $use-rotateIn 			:	true;
+// $use-rotateInUpLeft 	: 	true;
+// $use-rotateInUpRight 	: 	true;
+// $use-rotateInDownLeft 	: 	true;
+// $use-rotateInDownRight 	: 	true;
 
 
 // Rotate Exit
-$use-rotateOut 			:	false !default;
-$use-rotateOutUpLeft 	: 	false !default;
-$use-rotateOutUpRight 	: 	false !default;
-$use-rotateOutDownLeft 	: 	false !default;
-$use-rotateOutDownRight : 	false !default;
+// $use-rotateOut 			:	true;
+// $use-rotateOutUpLeft 	: 	true;
+// $use-rotateOutUpRight 	: 	true;
+// $use-rotateOutDownLeft 	: 	true;
+// $use-rotateOutDownRight : 	true;
 
 
 // Slide Enter
-$use-slideInUp			:   false !default;
-$use-slideInDown		:   false !default;
-$use-slideInLeft		:   false !default;
-$use-slideInRight		:   false !default;
+// $use-slideInUp			:   true;
+// $use-slideInDown		:   true;
+// $use-slideInLeft		:   true;
+// $use-slideInRight		:   true;
 
 // Slide Exit
-$use-slideOutUp			:   false !default;
-$use-slideOutDown		:   false !default;
-$use-slideOutLeft		:   false !default;
-$use-slideOutRight		:   false !default;
+// $use-slideOutUp			:   true;
+// $use-slideOutDown		:   true;
+// $use-slideOutLeft		:   true;
+// $use-slideOutRight		:   true;
 
 // Flippers
-$use-flip				:	false !default;
-$use-flipInX			:	false !default;
-$use-flipInY			:	false !default;
-$use-flipOutX			:	false !default;
-$use-flipOutY			:	false !default;
+// $use-flip				:	true;
+// $use-flipInX			:	true;
+// $use-flipInY			:	true;
+// $use-flipOutX			:	true;
+// $use-flipOutY			:	true;
 
 
 // Lightspeed
-$use-lightSpeedIn 		:	false !default;
-$use-lightSpeedOut 		:	false !default;
+// $use-lightSpeedIn 		:	true;
+// $use-lightSpeedOut 		:	true;
 
 
 // Attention Seekers
-$use-bounce				:	false !default;
-$use-flash				:	false !default;
-$use-pulse				:	false !default;
-$use-swing				:	false !default;
-$use-shake				:	false !default;
-$use-tada				:	false !default;
-$use-wobble				:	false !default;
+// $use-bounce				:	true;
+// $use-flash				:	true;
+// $use-pulse				:	true;
+// $use-swing				:	true;
+$use-shake				:	true;
+// $use-tada				:	true;
+// $use-wobble				:	true;
 
 
 // Special
-$use-hinge				:	false !default;
-$use-rollIn				: 	false !default;
-$use-rollOut 			:	false !default;
+// $use-hinge				:	true;
+// $use-rollIn				: 	true;
+// $use-rollOut 			:	true;
 
 
 // Zoom In
-$use-zoomIn 			:	false !default;
-$use-zoomInDown 		:	false !default;
-$use-zoomInLeft 		:	false !default;
-$use-zoomInRight 		:	false !default;
-$use-zoomInUp 			:	false !default;
+// $use-zoomIn 			:	true;
+// $use-zoomInDown 		:	true;
+// $use-zoomInLeft 		:	true;
+// $use-zoomInRight 	:	true;
+// $use-zoomInUp 		:	true;
 
 
 // Zoom Out
-$use-zoomOut			:	false !default;
-$use-zoomOutDown		:	false !default;
-$use-zoomOutLeft		:	false !default;
-$use-zoomOutRight		:	false !default;
-$use-zoomOutUp			:	false !default;
+//$use-zoomOut			:	true;
+// $use-zoomOutDown		:	true;
+// $use-zoomOutLeft		:	true;
+// $use-zoomOutRight	:	true;
+// $use-zoomOutUp		:	true;
 
 
 // Import the animations
