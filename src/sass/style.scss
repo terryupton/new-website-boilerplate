@@ -19,8 +19,22 @@
 //Settings Imported - These are unique for each project (fonts, colours, baseline settings etc)
 @import "_settings";
 
-//Mixins loaded first to ensure they work (using Sass Globbing)
-@import "mixins/*";
+//Mixins loaded first to ensure they work
+@import "mixins/_IE7-padding";
+@import "mixins/_children-of-ie";
+@import "mixins/_colors";
+@import "mixins/_columns";
+@import "mixins/_hover";
+@import "mixins/_maths";
+@import "mixins/_media-queries";
+@import "mixins/_misc";
+@import "mixins/_placeholder";
+@import "mixins/_rwd-padding-margin";
+@import "mixins/_shapes";
+@import "mixins/_tint-and-shade";
+@import "mixins/_triangles";
+@import "mixins/_typography";
+
 
 //Susy
 @import "vendors/_susy";
@@ -50,9 +64,16 @@
 //Form Styles
 @import "modules/_forms";
 
-
 // //Layout Styles (using Sass Globbing)
-@import "layouts/*";
+//Layout Styles (Core Styles)
+@import "layouts/_header";
+@import "layouts/_footer";
+@import "layouts/_nav";
+@import "layouts/_contact";
+@import "layouts/_terms";
+
+//Layout Styles (Per Project Styles)
+// @import "layouts/_about";
 
 //Magnificant Lightbox Gallery (Responsive)
 // @import "vendors/_magnificant-popup";
