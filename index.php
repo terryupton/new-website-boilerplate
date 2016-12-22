@@ -4,11 +4,8 @@
 ?>
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>		<html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>			<html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>			<html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
-<!--[if IE 9]>			<html class="no-js lt-ie10" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
 	<!-- Basic Page Needs
@@ -90,7 +87,7 @@
 </head>
 
 <body>
-	<!--[if lt IE 9]>
+	<!--[if lt IE 8]>
 	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
