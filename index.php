@@ -1,17 +1,6 @@
 <?php
 	$host = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-?>
-
-<?php
-
-//AUTO COPYRIGHT NOTICE
-##################################################################################
-	function auto_copyright($year = 'auto'){
-		if(intval($year) == 'auto'){ $year = date('Y'); }
-		if(intval($year) == date('Y')){ echo intval($year); }
-		if(intval($year) < date('Y')){ echo intval($year) . ' - ' . date('Y'); }
-		if(intval($year) > date('Y')){ echo date('Y'); }
-	}
+	include($_SERVER['DOCUMENT_ROOT'].'/cms/templates/layouts/global.functions.php');
 ?>
 
 <!DOCTYPE html>
@@ -65,28 +54,14 @@
 	================================================== -->
 
 	<!-- Main Styles -->
-
-	<!--[if ! lt IE 9]><!-->
-		<!--Stylesheets for browsers other than lower than Internet Explorer 8 -->
 		<?php  if($host == 'localhost') { ?>
 		<link href="/assets/css/style.min.css" rel="stylesheet" type="text/css" media="screen, projection, print">
 		<?php } else { ?>
 		<link href="/assets/css/style.min.<?php echo filectime($_SERVER['DOCUMENT_ROOT'].'/assets/css/style.min.css'); ?>.css" rel="stylesheet" type="text/css" media="screen, projection, print">
 		<?php } ?>
-	<!--<![endif]-->
-
-
-	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="/assets/css/universal-IE7.min.css" rel="stylesheet" type="text/css" media="screen, projection">
-	<![endif]-->
-
 
 	<!-- JAVASCRIPTS
 	================================================== -->
-
-	<!-- DOWNLOAD BESPOKE MODERNIZR IF REQUIED. Based on website -->
-	<!-- <script type="text/javascript" src="/assets/js/modernizr.min.js"></script> -->
-
 	<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
 
 	<!-- Favicons
@@ -112,14 +87,6 @@
 		<meta name="msapplication-config" content="/assets/img/touch/browserconfig.xml">
 		<meta name="theme-color" content="#e13535">
 		<!-- TODO: Get the fav icons for the project - http://realfavicongenerator.net -->
-
-
-	<!-- Gridset App Temp Files
-	================================================== -->
-	<!--<link href="https://get.gridsetapp.com/21865/" rel="stylesheet" />
-	<script src="https://get.gridsetapp.com/21865/overlay/"></script>-->
-
-
 </head>
 
 <body>
@@ -220,8 +187,6 @@
 	</aside>
 	</div>
 
-
-
 <footer role="contentinfo" class="footer">
 	<div class="container">
 		<p>Watfields Limited are registered at Companies House England and Wales<br>
@@ -249,10 +214,6 @@
 <!-- TODO: Google Analytics Code to be created from account -->
 <!--GOOGLE ANALYTCIS-->
 <!--END GOOGLE ANALYTCIS-->
-
-
-<!-- TODO: Remove this accessibility script before going live -->
-<script src="/assets/js/tota11y.min.js"></script>
 
 </body>
 </html>
