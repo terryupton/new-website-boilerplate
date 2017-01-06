@@ -41,6 +41,8 @@ var
 	onError = function (err) {
 		gutil.beep();
 		gutil.log(gutil.colors.red(err));
+		this.emit('end');
+		this.destroy();
 	};
 
 	// Paths

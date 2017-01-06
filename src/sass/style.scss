@@ -40,8 +40,8 @@
 @import "vendors/_susy";
 
 //CSS3 ANIMATIONS
-// @import "vendors/animate/_animate";
-// @import "modules/_animations";
+@import "vendors/animate/_animate";
+@import "modules/_animations";
 
 //Framework Settings (Body, HTML, Footer, Header, Containers, Resets)
 @import "base/_framework";

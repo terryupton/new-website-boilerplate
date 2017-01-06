@@ -23,135 +23,133 @@
 // Hugely influenced and inspired by @csswizardry's inuit.css _vars.scss file                       //
 //==================================================================================================//
 
-// Use Case: @include fadeIn($count, $duration, $delay, $function, $fill, $visibility)
-
 // Fade Enter
-// $use-fadeIn 			:	true;
-// $use-fadeInUp 			:	true;
-// $use-fadeInUpBig 		:	true;
-// $use-fadeInDown 		:	true;
-// $use-fadeInDownBig 		:	true;
-// $use-fadeInLeft 		:	true;
-// $use-fadeInLeftBig 		:	true;
-// $use-fadeInRight 		:	true;
-// $use-fadeInRightBig 	:	true;
+$use-fadeIn 			:	false !default;
+$use-fadeInUp 			:	false !default;
+$use-fadeInUpBig 		:	false !default;
+$use-fadeInDown 		:	false !default;
+$use-fadeInDownBig 		:	false !default;
+$use-fadeInLeft 		:	false !default;
+$use-fadeInLeftBig 		:	false !default;
+$use-fadeInRight 		:	false !default;
+$use-fadeInRightBig 	:	false !default;
 
 
 // Fade Exit
-// $use-fadeOut			:   true;
-// $use-fadeOutUp			:	true;
-// $use-fadeOutUpBig   	:	true;
-// $use-fadeOutDown		:	true;
-// $use-fadeOutDownBig 	:	true;
-// $use-fadeOutLeft		:	true;
-// $use-fadeOutLeftBig 	:	true;
-// $use-fadeOutRight		:	true;
-// $use-fadeOutRightBig	:	true;
+$use-fadeOut			:   false !default;
+$use-fadeOutUp			:	false !default;
+$use-fadeOutUpBig   	:	false !default;
+$use-fadeOutDown		:	false !default;
+$use-fadeOutDownBig 	:	false !default;
+$use-fadeOutLeft		:	false !default;
+$use-fadeOutLeftBig 	:	false !default;
+$use-fadeOutRight		:	false !default;
+$use-fadeOutRightBig	:	false !default;
 
 
 // Bounce Enter
-// $use-bounceIn			:	true;
-// $use-bounceInUp			: 	true;
-// $use-bounceInDown 		: 	true;
-// $use-bounceInLeft 		: 	true;
-// $use-bounceInRight 		: 	true;
+$use-bounceIn			:	false !default;
+$use-bounceInUp			: 	false !default;
+$use-bounceInDown 		: 	false !default;
+$use-bounceInLeft 		: 	false !default;
+$use-bounceInRight 		: 	false !default;
 
 
 // Bounce Exit
-// $use-bounceOut			:	true;
-// $use-bounceOutUp		: 	true;
-// $use-bounceOutDown 		: 	true;
-// $use-bounceOutLeft 		: 	true;
-// $use-bounceOutRight 	: 	true;
+$use-bounceOut			:	false !default;
+$use-bounceOutUp		: 	false !default;
+$use-bounceOutDown 		: 	false !default;
+$use-bounceOutLeft 		: 	false !default;
+$use-bounceOutRight 	: 	false !default;
 
 
 // Rotate Enter
-// $use-rotateIn 			:	true;
-// $use-rotateInUpLeft 	: 	true;
-// $use-rotateInUpRight 	: 	true;
-// $use-rotateInDownLeft 	: 	true;
-// $use-rotateInDownRight 	: 	true;
+$use-rotateIn 			:	false !default;
+$use-rotateInUpLeft 	: 	false !default;
+$use-rotateInUpRight 	: 	false !default;
+$use-rotateInDownLeft 	: 	false !default;
+$use-rotateInDownRight 	: 	false !default;
 
 
 // Rotate Exit
-// $use-rotateOut 			:	true;
-// $use-rotateOutUpLeft 	: 	true;
-// $use-rotateOutUpRight 	: 	true;
-// $use-rotateOutDownLeft 	: 	true;
-// $use-rotateOutDownRight : 	true;
+$use-rotateOut 			:	false !default;
+$use-rotateOutUpLeft 	: 	false !default;
+$use-rotateOutUpRight 	: 	false !default;
+$use-rotateOutDownLeft 	: 	false !default;
+$use-rotateOutDownRight : 	false !default;
 
 
 // Slide Enter
-// $use-slideInUp			:   true;
-// $use-slideInDown		:   true;
-// $use-slideInLeft		:   true;
-// $use-slideInRight		:   true;
+$use-slideInUp			:   false !default;
+$use-slideInDown		:   false !default;
+$use-slideInLeft		:   false !default;
+$use-slideInRight		:   false !default;
 
 // Slide Exit
-// $use-slideOutUp			:   true;
-// $use-slideOutDown		:   true;
-// $use-slideOutLeft		:   true;
-// $use-slideOutRight		:   true;
+$use-slideOutUp			:   false !default;
+$use-slideOutDown		:   false !default;
+$use-slideOutLeft		:   false !default;
+$use-slideOutRight		:   false !default;
 
 // Flippers
-// $use-flip				:	true;
-// $use-flipInX			:	true;
-// $use-flipInY			:	true;
-// $use-flipOutX			:	true;
-// $use-flipOutY			:	true;
+$use-flip				:	false !default;
+$use-flipInX			:	false !default;
+$use-flipInY			:	false !default;
+$use-flipOutX			:	false !default;
+$use-flipOutY			:	false !default;
 
 
 // Lightspeed
-// $use-lightSpeedIn 		:	true;
-// $use-lightSpeedOut 		:	true;
+$use-lightSpeedIn 		:	false !default;
+$use-lightSpeedOut 		:	false !default;
 
 
 // Attention Seekers
-// $use-bounce				:	true;
-// $use-flash				:	true;
-// $use-pulse				:	true;
-// $use-swing				:	true;
-$use-shake				:	true;
-// $use-tada				:	true;
-// $use-wobble				:	true;
+$use-bounce				:	false !default;
+$use-flash				:	false !default;
+$use-pulse				:	false !default;
+$use-swing				:	false !default;
+$use-shake				:	false !default;
+$use-tada				:	false !default;
+$use-wobble				:	false !default;
 
 
 // Special
-// $use-hinge				:	true;
-// $use-rollIn				: 	true;
-// $use-rollOut 			:	true;
+$use-hinge				:	false !default;
+$use-rollIn				: 	false !default;
+$use-rollOut 			:	false !default;
 
 
 // Zoom In
-// $use-zoomIn 			:	true;
-// $use-zoomInDown 		:	true;
-// $use-zoomInLeft 		:	true;
-// $use-zoomInRight 	:	true;
-// $use-zoomInUp 		:	true;
+$use-zoomIn 			:	false !default;
+$use-zoomInDown 		:	false !default;
+$use-zoomInLeft 		:	false !default;
+$use-zoomInRight 		:	false !default;
+$use-zoomInUp 			:	false !default;
 
 
 // Zoom Out
-//$use-zoomOut			:	true;
-// $use-zoomOutDown		:	true;
-// $use-zoomOutLeft		:	true;
-// $use-zoomOutRight	:	true;
-// $use-zoomOutUp		:	true;
+$use-zoomOut			:	false !default;
+$use-zoomOutDown		:	false !default;
+$use-zoomOutLeft		:	false !default;
+$use-zoomOutRight		:	false !default;
+$use-zoomOutUp			:	false !default;
 
 
 // Import the animations
 @import
-	"_attention-seekers/attention-seekers.scss",
-	"_bouncing-entrances/bouncing-entrances.scss",
-	"_bouncing-exits/bouncing-exits.scss",
-	"_fading-entrances/fading-entrances.scss",
-	"_fading-exits/fading-exits.scss",
-	"_flippers/flippers.scss",
-	"_lightspeed/lightspeed.scss",
-	"_rotating-entrances/rotating-entrances.scss",
-	"_rotating-exits/rotating-exits.scss",
-	"_sliding-entrances/sliding-entrances.scss",
-	"_sliding-exits/sliding-exits.scss",
-	"_specials/specials.scss",
-	"_zooming-entrances/zooming-entrances.scss",
-	"_zooming-exits/zooming-exits.scss"
+	"_attention-seekers/_attention-seekers.scss",
+	"_bouncing-entrances/_bouncing-entrances.scss",
+	"_bouncing-exits/_bouncing-exits.scss",
+	"_fading-entrances/_fading-entrances.scss",
+	"_fading-exits/_fading-exits.scss",
+	"_flippers/_flippers.scss",
+	"_lightspeed/_lightspeed.scss",
+	"_rotating-entrances/_rotating-entrances.scss",
+	"_rotating-exits/_rotating-exits.scss",
+	"_sliding-entrances/_sliding-entrances.scss",
+	"_sliding-exits/_sliding-exits.scss",
+	"_specials/_specials.scss",
+	"_zooming-entrances/_zooming-entrances.scss",
+	"_zooming-exits/_zooming-exits.scss"
 ;

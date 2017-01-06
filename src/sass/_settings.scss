@@ -156,6 +156,124 @@ $susy: (
 );
 
 //* ==========================================================================
+//   ANIMAIONS
+//========================================================================== */
+// Use Case: @include fadeIn($count, $duration, $delay, $function, $fill, $visibility)
+
+// Fade Enter
+// $use-fadeIn 			:	true;
+// $use-fadeInUp 			:	true;
+// $use-fadeInUpBig 		:	true;
+// $use-fadeInDown 		:	true;
+// $use-fadeInDownBig 		:	true;
+// $use-fadeInLeft 		:	true;
+// $use-fadeInLeftBig 		:	true;
+// $use-fadeInRight 		:	true;
+// $use-fadeInRightBig 	:	true;
+
+
+// Fade Exit
+// $use-fadeOut			:   true;
+// $use-fadeOutUp			:	true;
+// $use-fadeOutUpBig   	:	true;
+// $use-fadeOutDown		:	true;
+// $use-fadeOutDownBig 	:	true;
+// $use-fadeOutLeft		:	true;
+// $use-fadeOutLeftBig 	:	true;
+// $use-fadeOutRight		:	true;
+// $use-fadeOutRightBig	:	true;
+
+
+// Bounce Enter
+// $use-bounceIn			:	true;
+// $use-bounceInUp			: 	true;
+// $use-bounceInDown 		: 	true;
+// $use-bounceInLeft 		: 	true;
+// $use-bounceInRight 		: 	true;
+
+
+// Bounce Exit
+// $use-bounceOut			:	true;
+// $use-bounceOutUp		: 	true;
+// $use-bounceOutDown 		: 	true;
+// $use-bounceOutLeft 		: 	true;
+// $use-bounceOutRight 	: 	true;
+
+
+// Rotate Enter
+// $use-rotateIn 			:	true;
+// $use-rotateInUpLeft 	: 	true;
+// $use-rotateInUpRight 	: 	true;
+// $use-rotateInDownLeft 	: 	true;
+// $use-rotateInDownRight 	: 	true;
+
+
+// Rotate Exit
+// $use-rotateOut 			:	true;
+// $use-rotateOutUpLeft 	: 	true;
+// $use-rotateOutUpRight 	: 	true;
+// $use-rotateOutDownLeft 	: 	true;
+// $use-rotateOutDownRight : 	true;
+
+
+// Slide Enter
+// $use-slideInUp			:   true;
+// $use-slideInDown		:   true;
+// $use-slideInLeft		:   true;
+// $use-slideInRight		:   true;
+
+// Slide Exit
+// $use-slideOutUp			:   true;
+// $use-slideOutDown		:   true;
+// $use-slideOutLeft		:   true;
+// $use-slideOutRight		:   true;
+
+// Flippers
+// $use-flip				:	true;
+// $use-flipInX			:	true;
+// $use-flipInY			:	true;
+// $use-flipOutX			:	true;
+// $use-flipOutY			:	true;
+
+
+// Lightspeed
+// $use-lightSpeedIn 		:	true;
+// $use-lightSpeedOut 		:	true;
+
+
+// Attention Seekers
+// $use-bounce				:	true;
+// $use-flash				:	true;
+// $use-pulse				:	true;
+// $use-swing				:	true;
+$use-shake				:	true;
+// $use-tada				:	true;
+// $use-wobble				:	true;
+
+
+// Special
+// $use-hinge				:	true;
+// $use-rollIn				: 	true;
+// $use-rollOut 			:	true;
+
+
+// Zoom In
+// $use-zoomIn 			:	true;
+// $use-zoomInDown 		:	true;
+// $use-zoomInLeft 		:	true;
+// $use-zoomInRight 	:	true;
+// $use-zoomInUp 		:	true;
+
+
+// Zoom Out
+//$use-zoomOut			:	true;
+// $use-zoomOutDown		:	true;
+// $use-zoomOutLeft		:	true;
+// $use-zoomOutRight	:	true;
+// $use-zoomOutUp		:	true;
+
+
+//* ==========================================================================
 //   Debug Mode (on or off)
 //========================================================================== */
 
